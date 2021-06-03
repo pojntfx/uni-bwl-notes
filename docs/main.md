@@ -254,3 +254,66 @@ Definition Kostenträger: _Die in einem Unternehmen hergestellten Produkte oder 
   - Einzelkosten: Direkte Kosten der Bereitstellung der Software
   - Gemeinkosten: $= Entwicklungskosten$, werden auf die geplante Stückzahl verteilt
   - Wichtig: Die Entscheidung, die Software zu entwickeln, ist eine Investitionsentscheidung!
+
+## Planung von IT-Projekten
+
+### Definition Projekt vs. Routinevorgang
+
+**Eigenschaften**:
+
+- Klares Ziel
+- Begrenzte Ressourcen: Zeit, Finanzen, Personal
+- Spezielle Organisation
+- Einmaligkeit des Vorhabens
+- Risikobehaftet: Komplexes Vorhaben
+
+**Projekt**: Einmalige Aufgabenstellung, die unter individuellen Randbedingungen einen wertschöpfenden Geschäftsprozess implementiert oder verbessert
+
+**Projektmanagement**: Gesamtheit aller Tätigkeiten, Prozesse, Werkzeuge und Methoden zur Führung eines Projekts
+
+### Elemente des Projektmanagements
+
+_aber bin ich in einem Tollhause? bin ich selbst toll?_ - E.T.A. Hoffmann, "Der goldne Topf"
+
+- Expectations-Management
+- Requirements-Management
+- Change-Management
+
+- Lebenszyklus von Software
+- Qualitätsmanagement
+- Risikomanagement (Sortierung nach höchstem Risiko)
+- Konfigurationsmanagement
+
+- Vertragswesen
+- Organisation von Projekten
+
+- Grundlagen der Kommunikation
+- Zeitmanagement
+- Besprechungsführung
+
+- Schätzmethoden
+- Projektkalkulation
+- Projektcontrolling
+- Planung
+- Vorgehensmodelle
+
+### Der Business-Lifecycle
+
+`Strategie/Geschäftsziele → Konkrete Anforderungen → Projekte/Programme → Business Benefits`
+
+- Projekte sind Geschäftszielen unterstellt
+- IT-Projekte werden nur in Ausnahmefällen von der IT-Abteilung verantwortet
+- Projektleiter führt Projekte
+
+### Erfolgsfaktoren
+
+- Was ist zu tun?
+- Wer ist beteiligt?
+- Welche Regeln der Zusammenarbeit gelten?
+
+Deshalb: **Strategisches Projektmanagement**:
+
+- Forming
+- Storming
+- Norming
+- Performing

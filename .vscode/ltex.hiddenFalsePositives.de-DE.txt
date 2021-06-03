@@ -1,2 +1,4 @@
 {"rule":"AUSLASSUNGSPUNKTE","sentence":"^\\QDie Buchführung erfasst aufgrund von Belegen ...\\E$"}
 {"rule":"AUSLASSUNGSPUNKTE","sentence":"^\\Q... des Unternehmens, und ermittelt daraus den Gewinn oder Verlust des Geschäftsjahres.\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qaber bin ich in einem Tollhause?\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qbin ich selbst toll?\\E$"}
