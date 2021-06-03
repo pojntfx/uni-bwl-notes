@@ -29,11 +29,11 @@ Systematische und strukturierte Erfassung und Darstellung aller finanz- und verm
 - **Kontrolle** durch Abgleich von Ist- und Planzahlen
 - **Dokumentation** der (finanziellen) betrieblichen Abläufe
 
-### Bereiche des Rechungswesen
+### Bereiche des Rechnungswesen
 
 - **Internes Rechnungswesen**:
   - Innerbetrieblich: Management & Mitarbeiter
-  - Betriebsführung: Kostenabrechung & Controlling
+  - Betriebsführung: Kostenabrechnung & Controlling
 - **Zweikreissystem**: Umsetzung der Erlöse in Vermögenswerte oder Zahlungen an Dritte
 - **Externes Rechnungswesen**:
   - Außerbetrieblich: Kapitalgeber & Lieferanten
@@ -183,3 +183,74 @@ Syntax: `<Soll-Konto> [und VST-19 ${MwSt-Anteil}] an <Haben-Konto> ${Betrag} [un
   - Umsatzsteuer-Konto: Passives Bestandskonto/Fremdkapitalkonto
 - Auf jeder Rechnung muss die enthaltene MwSt ausgewiesen werden
 - Abschreibung nur Nettowert (also mit abgezogenen Steuern)
+
+## Internes Rechnungswesen (Projektkalkulation)
+
+### Grenzen des externen Rechnungswesens
+
+Siehe [Funktionen des Rechnungswesens](#funktionen-des-rechnungswesens).
+
+- **Information** über den aktuellen finanziellen Stand des Unternehmens: ++
+- **Ermittlung** der Daten für Steuerbemessung und Gewinnausschüttung: ++
+- **Planung** und Vorbereitung von unternehmerischen Entscheidungen: /
+- **Kontrolle** durch Abgleich von Ist- und Planzahlen: --
+- **Dokumentation** der (finanziellen) betrieblichen Abläufe: --
+
+Daten, um qualifizierte Entscheidungen für folgende Bereiche zu treffen, fehlen deshalb:
+
+- Interne Leistungserbringung und -verflechtung
+- Rentabilität von Unternehmensbereichen (Spartenergebnis)
+  - Consulting
+  - Software-Sparte
+  - Hardware-Sparte
+- Investitionsentscheidungen
+- Preisgestaltung
+- Plandaten (Soll-Ist-Abgleich)
+
+### Fragestellungen an das interne Rechnungswesen
+
+- Hat der Vorgang Einfluss auf das Betriebsergebnis (→ steuerlich relevanter Gewinn), nur auf das Spartenergebnis oder keinerlei Einfluss?
+- Ist der Vorgang mit dem Betriebszweck (→ dauerhaft verfolgte Arbeits- und Produktionsziel eines Betriebes) verbunden?
+- Ist der Vorgang periodengerecht (→ wirkt sich auf das Geschäftsjahr aus)?
+- Verursachungsgerechtigkeit: Erfolgt eine sachgerechte Zuordnung?
+
+### Aufbau der Kostenrechnung
+
+- **Kostenarten-Rechnung**: Erfassung der Kosten differenziert nach ver- oder gebrauchten Produktionsfaktoren
+- **Kostenstellen-Rechnung**: Kostenstellen-bezogene Erfassung von Kostenträger-Gemeinkosten und Verechnung auf Endkostenstellen
+- **Kostenträger-Rechnung**: Produkte und Dienstleistungen, die zur Deckung der im Betrieb entstehenden Kosten und Erzielung des Betriebserfolgs dienen
+
+- **Kostenträger-Einzelkosten**: z.B. Verwendung von Rohmaterialien und Bauteilen
+- **Kostenträger-Gemeinkosten**: z.B. Verwendung von Hilfsstoffen oder Aufwand in der Personalbuchhaltung
+
+### Grundsätze der Kostenstellenbildung
+
+Definition Kostenstelle: _Ort der Kostenentstehung und der Leistungserbringung. Sie wird nach Verantwortungsbereichen, räumlichen, funktionalen, aufbauorganisatorischen oder verrechnungstechnischen Aspekten gebildet._
+
+- Schaffung selbstständiger Verantwortungsbereiche
+- Bestimmung sinnvoller Bezugsgrößen
+- Möglichkeit einer fehlerfreien Kontierung (Eindeutigkeit und Klarheit)
+- Wirtschaftlichkeit
+
+### Aspekte der Bildung von Kostenstellen
+
+- Verantwortungsbereiche
+- Räumliche Lage
+- Funktionale Aspekte
+- Organisatorischer Aufbau
+- Verrechnungstechnischer Aufbau
+
+### Kostenträger in IT-Unternehmen
+
+Definition Kostenträger: _Die in einem Unternehmen hergestellten Produkte oder Dienstleistungen._
+
+- **Produkte**: Dienstleistungen, Individual-Software oder Software-Produkte
+- **Dienstleistungen**
+  - Kostenträger: Erbringer der Dienstleistung
+  - Einzelkosten: Direkten Kosten eines Beratungsauftrags
+  - Gemeinkosten: Werden auf die geplanten Abrechnungseinheiten verteilt
+- **Software-Produkte**
+  - Kostenträger: Softwarelizenzen
+  - Einzelkosten: Direkte Kosten der Bereitstellung der Software
+  - Gemeinkosten: $= Entwicklungskosten$, werden auf die geplante Stückzahl verteilt
+  - Wichtig: Die Entscheidung, die Software zu entwickeln, ist eine Investitionsentscheidung!
