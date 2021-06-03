@@ -103,7 +103,7 @@ HGB und Abgabenordnung verpflichten zur Buchführung.
 
 ### Skriptsprache für Buchungssätze
 
-Syntax: `<Soll-Konto> an <Haben-Konto> <Betrag>`
+Syntax: `<Soll-Konto> [und VST-19 ${MwSt-Anteil}] an <Haben-Konto> ${Betrag} [und VST-19 ${MwSt-Anteil}]`
 
 ### Grundsätze der ordnungsgemäßen Buchführung
 
@@ -147,3 +147,39 @@ Syntax: `<Soll-Konto> an <Haben-Konto> <Betrag>`
 - Strukturelle Gegenüberstellung des Vermögens und seiner Finanzierung durch Eigenkapital und Schulden
 - **Aktiva**: Vermögen → Linke Seite
 - **Passiva**: Mittelherkunft, "womit das Vermögen finanziert wird" → Rechte Seite
+
+## Wichtige Sonderfälle
+
+### Abschreibungen für Abnutzung
+
+- Wirtschaftsgüter haben technisch- oder abnutzungsbedingt eine typische Nutzungsdauer
+- Abschreibung bildet die Wertminderung relativ zu den AHK (**Anschaffungs- oder Herstellungskosten**) ab
+  - Linear
+  - Degressiv
+  - Sonderabschreibung: z.B. Defekt nach Garantie
+- Eigenständige Nutzbarkeit ist Voraussetzung
+- Bundes-Finanzministerium schlägt Nutzungsdauern vor
+- Bei geringwertigen Wirtschaftsgern gelten Sonderregeln
+- Nach Abschreibung bleiben Güter mit Rest- oder Erinnerungswert von 1€ im Unternehmensvermögen
+
+### Einführung in Mehrwertsteuer (MwSt)
+
+- Indirekte Steuer
+- Besteuerung der Wertschöpfung von Unternehmen
+- 30% des Steueraufkommens
+- **Steuersätze**
+  - **Mehrwertssteuerfrei**: 0, Arzt, Sozialbereich, Staatliche Museen
+  - **Reduzierter Mehrwertsteuersatz**: 7%, Nahrungsmittel, Taxi
+  - **Voller Mehrwertsteuersatz**: 19%
+- **Steuerlast**
+  - **Vorsteuer**: Im **Einkaufspreis** ist MwSt erhalten (_Wir bekommen die Rechnung_): $-$
+  - **Umsatzsteuer**: Im **Verkaufspreis** ist MwSt erhalten (_Wir stellen die Rechnung_): $+$
+  - Steuerlast des Unternehmens: $Vereinnahmte\ Umsatzsteuer - bezahlte\ Vorsteuer$
+
+### MwSt in der Buchhaltung
+
+- Kontenpaare
+  - Vorsteuer-Konto: Aktives Bestandskonto/Vermögenskonto
+  - Umsatzsteuer-Konto: Passives Bestandskonto/Fremdkapitalkonto
+- Auf jeder Rechnung muss die enthaltene MwSt ausgewiesen werden
+- Abschreibung nur Nettowert (also mit abgezogenen Steuern)
