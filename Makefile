@@ -12,7 +12,7 @@ docs:
 	done
 	echo "</ul><div><strong><em>$$(sed -n '6 p' docs/metadata.txt)</em></strong></div></main>" >> "out/docs/index.html"
 	mkdir -p "out/release"
-	zip -r "out/release/all.zip" "out/docs"
+	zip -j -r "out/release/all.zip" "out/docs"
 
 build: docs
 
