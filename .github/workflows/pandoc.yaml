@@ -24,6 +24,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
           branch: gh-pages
-          folder: outs/docs
+          folder: out/docs
           git-config-name: GitHub Pages Bot
           git-config-email: bot@example.com
