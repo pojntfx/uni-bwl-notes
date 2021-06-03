@@ -1,12 +1,12 @@
 # Uni BWL Notes
 
-Notes for the "Planung und Kalkulation von IT-Projekten" (econ 101) course at HdM Stuttgart.
+Notes for the Planung und Kalkulation von IT-Projekten (econ 101) course at HdM Stuttgart.
 
 [![pandoc CI](https://github.com/pojntfx/uni-bwl-notes/actions/workflows/pandoc.yaml/badge.svg)](https://github.com/pojntfx/uni-bwl-notes/actions/workflows/pandoc.yaml)
 
-## Usage
+## Overview
 
-🚧 This project is a work-in-progress! Instructions will be added as soon as it is usable. 🚧
+You can [view and download the notes from GitHub pages](https://pojntfx.github.io/uni-bwl-notes/). They can also be downloaded as a Zip archive from [GitHub releases](https://github.com/pojntfx/uni-bwl-notes/releases).
 
 ## License
 
