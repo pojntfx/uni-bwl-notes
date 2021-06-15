@@ -11,7 +11,7 @@
 
 Systematische und strukturierte Erfassung und Darstellung aller finanz- und vermögenswirksamen Abläufe, die im Unternehmen intern oder mit einem externen Partner entstehen.
 
-### Targets des Rechnungswesen
+### Targets/Stakeholder des Rechnungswesen
 
 - Management
 - Steuerverwaltung
@@ -21,7 +21,7 @@ Systematische und strukturierte Erfassung und Darstellung aller finanz- und verm
 - Gesellschaft
 - Investoren
 
-### Funktionen des Rechnungswesens
+### Aufgaben/Funktionen des Rechnungswesens
 
 - **Information** über den aktuellen finanziellen Stand des Unternehmens
 - **Ermittlung** der Daten für Steuerbemessung und Gewinnausschüttung
@@ -78,7 +78,7 @@ HGB und Abgabenordnung verpflichten zur Buchführung.
 ### Arten der Buchführung
 
 - Doppelte Buchführung (Dopik, Standard)
-- Einfache Buchführung
+- Einfache Buchführung (Einnahmen-Überschuss-Rechnung; legal wenn unter 500 000€ Jahresumsatz und nicht mehr als 50 000€ Gewinn gemacht werden!)
 - Kameralistik (Schatzkammer)
 
 ### Begriffe der Dopik
@@ -118,6 +118,11 @@ Syntax: `<Soll-Konto> [und VST-19 ${MwSt-Anteil}] an <Haben-Konto> ${Betrag} [un
 - **Keine Buchung ohne Beleg**
 - **Aufbewahrung der Unterlagen für 10 Jahre**
 
+### Aufwandskonto vs. Vermögenskonto
+
+- Produkt wird **sofort verbraucht**: Verbuchung über ein Aufwandskonto
+- Produkt wird **längeren Zeitraum genutzt**: Verbuchung über ein Vermögenskonto
+
 ### Voraussetzungen für die Buchführung
 
 - Exaktes Wissen über alle Vermögensstände des Unternehmens und deren Finanzierung
@@ -147,6 +152,45 @@ Syntax: `<Soll-Konto> [und VST-19 ${MwSt-Anteil}] an <Haben-Konto> ${Betrag} [un
 - Strukturelle Gegenüberstellung des Vermögens und seiner Finanzierung durch Eigenkapital und Schulden
 - **Aktiva**: Vermögen → Linke Seite
 - **Passiva**: Mittelherkunft, "womit das Vermögen finanziert wird" → Rechte Seite
+
+### Aktivkonten
+
+**Links** → Zugänge und Anfangsbestand
+**Rechts** → Abgänge und Schlussbestand
+
+- Bank
+- Kasse
+- Lizenzen
+- Forderungen
+- BGA
+- Fuhrpark
+- IT-Einrichtungen
+
+### Aufwandskonten
+
+**Links** → Zugänge
+**Rechts** → Abgänge
+
+- Gehalt
+- Zinsen
+- Miete
+- KFZ-Aufwand
+- Verbrauchskonto
+
+### Passivkonten
+
+**Links** → Abgänge und Schlussbestand
+**Rechts** → Zugänge und Anfangsbestand
+
+- Verbindlichkeiten
+- Darlehen
+
+### Ertragskonten
+
+**Links** → Abgänge
+**Rechts** → Zugänge
+
+- Umsatzerlöse
 
 ## Wichtige Sonderfälle
 
