@@ -153,7 +153,9 @@ Syntax: `<Soll-Konto> [und VST-19 ${MwSt-Anteil}] an <Haben-Konto> ${Betrag} [un
 - **Aktiva**: Vermögen → Linke Seite
 - **Passiva**: Mittelherkunft, "womit das Vermögen finanziert wird" → Rechte Seite
 
-### Aktivkonten
+### Aktivkonten/Vermögenskonto
+
+Werden mit SB ausgeglichen und in dieser aufgeführt.
 
 **Links** → Zugänge und Anfangsbestand
 **Rechts** → Abgänge und Schlussbestand
@@ -162,35 +164,50 @@ Syntax: `<Soll-Konto> [und VST-19 ${MwSt-Anteil}] an <Haben-Konto> ${Betrag} [un
 - Kasse
 - Lizenzen
 - Forderungen
-- BGA
+- BGA/IT-Systeme
 - Fuhrpark
-- IT-Einrichtungen
+- IT-Einrichtungen/IT-Ausstattung
+- Gebäude
+- Maschinen
+- FALL: Forderungen aus Lieferung und Leistung
+- VST-19: Vorsteuer
 
 ### Aufwandskonten
 
 **Links** → Zugänge
 **Rechts** → Abgänge
 
+Werden mit GuV ausgeglichen und in dieser aufgeführt.
+
 - Gehalt
 - Zinsen
 - Miete
-- KFZ-Aufwand
-- Verbrauchskonto
+- KFZ-Aufwand/Kosten (Sprit, Reparatur, ...)
+- Verbrauchskonto/Verbrauchsmaterialien
+- Bewirtung
+- AfA: Abschreibungen
 
-### Passivkonten
+### Passivkonten/Fremdkapitalkonto
+
+Werden mit SB ausgeglichen und in dieser aufgeführt.
 
 **Links** → Abgänge und Schlussbestand
 **Rechts** → Zugänge und Anfangsbestand
 
 - Verbindlichkeiten
 - Darlehen
+- VALL: Verbindlichkeiten aus Lieferung und Leistung
+- UST-19: Umsatzsteuer
 
 ### Ertragskonten
+
+Werden mit GuV ausgeglichen und in dieser aufgeführt.
 
 **Links** → Abgänge
 **Rechts** → Zugänge
 
-- Umsatzerlöse
+- Umsatzerlöse (Lizenzen, Beratungen, ...)
+- A.o. Ertrag
 
 ## Wichtige Sonderfälle
 
