@@ -209,6 +209,14 @@ Werden mit GuV ausgeglichen und in dieser aufgeführt.
 - Umsatzerlöse (Lizenzen, Beratungen, ...)
 - A.o. Ertrag
 
+### Vermögen und Schulden
+
+Vor allem bei der Zuordnung in der Bilanz wichtig.
+
+- **Anlagevermögen**: Angelegte Mittel/Geld; BGA, Fuhrpark, IT-Anlagen, GWG
+- **Umlaufvermögen**: Liquide Mittel/Geld; Bank, Forderungen, Kasse, Skonti & Boni, Vorsteuer
+- **Schulden**: Darlehen, Verbindlichkeiten, ...
+
 ## Wichtige Sonderfälle
 
 ### Abschreibungen für Abnutzung
