@@ -160,16 +160,15 @@ Werden mit SB ausgeglichen und in dieser aufgeführt.
 **Links** → Zugänge und Anfangsbestand
 **Rechts** → Abgänge und Schlussbestand
 
-- Bank
-- Kasse
+- Bank (**Überweisung**, unser Bankkonto)
+- Kasse (**bar**)
 - Lizenzen
-- Forderungen
+- Forderungen; FALL: Forderungen aus Lieferung und Leistung
 - BGA/IT-Systeme
 - Fuhrpark
 - IT-Einrichtungen/IT-Ausstattung
 - Gebäude
 - Maschinen
-- FALL: Forderungen aus Lieferung und Leistung
 - VST-19: Vorsteuer
 
 ### Aufwandskonten
@@ -194,10 +193,10 @@ Werden mit SB ausgeglichen und in dieser aufgeführt.
 **Links** → Abgänge und Schlussbestand
 **Rechts** → Zugänge und Anfangsbestand
 
-- Verbindlichkeiten
+- Verbindlichkeiten; VALL: Verbindlichkeiten aus Lieferung und Leistung
 - Darlehen
-- VALL: Verbindlichkeiten aus Lieferung und Leistung
 - UST-19: Umsatzsteuer
+- Eigenkapital
 
 ### Ertragskonten
 
@@ -215,7 +214,7 @@ Vor allem bei der Zuordnung in der Bilanz wichtig.
 
 - **Anlagevermögen**: Angelegte Mittel/Geld; BGA, Fuhrpark, IT-Anlagen, GWG
 - **Umlaufvermögen**: Liquide Mittel/Geld; Bank, Forderungen, Kasse, Skonti & Boni, Vorsteuer
-- **Schulden**: Darlehen, Verbindlichkeiten, ...
+- **Schulden**/**Fremdkapital**: Darlehen, Verbindlichkeiten, ...
 
 ## Wichtige Sonderfälle
 
@@ -233,6 +232,8 @@ Vor allem bei der Zuordnung in der Bilanz wichtig.
 
 ### Einführung in Mehrwertsteuer (MwSt)
 
+- **Netto**: Ohne Steuern ("Netto isch net so viel")
+- **Brutto**: Mit Steuern
 - Indirekte Steuer
 - Besteuerung der Wertschöpfung von Unternehmen
 - 30% des Steueraufkommens
