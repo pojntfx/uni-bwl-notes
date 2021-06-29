@@ -448,6 +448,8 @@ Herleitung der jeweiligen Inhalte → Produktbasierte Planung
 
 ### IT-Projektmanagement im Software-Entwicklungszyklus
 
+![](static/projektmanagement_im_entwicklungszyklus.png)
+
 **IT-Beratung**:
 
 - Analyse
