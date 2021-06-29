@@ -5,9 +5,13 @@
 
 # Uni BWL Notes
 
+> These study materials are heavily based on [professor Hinkelmann's "Planung und Kalkulation von IT-Projekten" lecture at HdM Stuttgart](https://www.hdm-stuttgart.de/hdm-band/studieninteressierte/bachelor/vorlesung_detail?ansicht=1&vorlid=5215477&sgbvsid=5171832).
+
 ## Einführung in das Rechnungswesen
 
 ### Definition Rechnungswesen
+
+![](static/4.png)
 
 Systematische und strukturierte Erfassung und Darstellung aller finanz- und vermögenswirksamen Abläufe, die im Unternehmen intern oder mit einem externen Partner entstehen.
 
@@ -30,6 +34,8 @@ Systematische und strukturierte Erfassung und Darstellung aller finanz- und verm
 - **Dokumentation** der (finanziellen) betrieblichen Abläufe
 
 ### Bereiche des Rechnungswesen
+
+![](static/2.png)
 
 - **Internes Rechnungswesen**:
   - Innerbetrieblich: Management & Mitarbeiter
@@ -220,6 +226,8 @@ Vor allem bei der Zuordnung in der Bilanz wichtig.
 
 ### Abschreibungen für Abnutzung
 
+![](static/3.png)
+
 - Wirtschaftsgüter haben technisch- oder abnutzungsbedingt eine typische Nutzungsdauer
 - Abschreibung bildet die Wertminderung relativ zu den AHK (**Anschaffungs- oder Herstellungskosten**) ab
   - Linear
@@ -371,6 +379,8 @@ _aber bin ich in einem Tollhause? bin ich selbst toll?_ - E.T.A. Hoffmann, "Der 
 
 ### Der Business-Lifecycle
 
+![](static/5.png)
+
 `Strategie/Geschäftsziele → Konkrete Anforderungen → Projekte/Programme → Business Benefits`
 
 - Projekte sind Geschäftszielen unterstellt
@@ -448,7 +458,7 @@ Herleitung der jeweiligen Inhalte → Produktbasierte Planung
 
 ### IT-Projektmanagement im Software-Entwicklungszyklus
 
-![](static/projektmanagement_im_entwicklungszyklus.png)
+![](static/1.png)
 
 **IT-Beratung**:
 
@@ -633,6 +643,8 @@ Projekte zerlegt in iterative, steuerbare Phasen
 
 ### Planungsebenen
 
+![](static/6.png)
+
 - Gesamtprojektplan
 - Abschnittsplan
 - Teamarbeitsplan
@@ -641,6 +653,8 @@ Projekte zerlegt in iterative, steuerbare Phasen
 - **Detaillierung**: Exception Plan
 
 ### Aufbau eines Plans
+
+![](static/7.png)
 
 1. Produkte
 2. Voraussetzungen & Qualitätsanforderungen
@@ -688,6 +702,8 @@ Projekte zerlegt in iterative, steuerbare Phasen
 
 ### PSP: Produktstrukturplan
 
+![](static/8.png)
+
 - Zerlegung des Endproduktes des Projektes in seine Teilprodukte: Was muss alles erstellt oder beschafft werden, um zum Endprodukt zu kommen?
 - Darstellung in Form einer hierarchischen Struktur: Produkte jeder Ebene müssen durch ihre Teilprodukte vollständig definiert werden
 - "Harte" und "weiche" Produkte (Softwaresystem, geschulte Mitarbeiter)
@@ -719,6 +735,8 @@ Projekte zerlegt in iterative, steuerbare Phasen
 - Fremdprodukte kennzeichnen (Ovale)
 - Produktstrukturplan aktualisieren
 
+![](static/9.png)
+
 ### Zusammenhänge
 
 In allen drei Dokumenten sind stehts die gleichen Elemente enhalten.
@@ -739,6 +757,8 @@ In allen drei Dokumenten sind stehts die gleichen Elemente enhalten.
 
 ### Terminplanung durchführen
 
+![](static/10.png)
+
 - Ablaufplanung
   - Den Aktivitäten Ressourcen zuordnen
   - Zeitlichen Ablauf mit Terminen festlegen: Abhängigkeiten berücksichtigen
@@ -749,10 +769,10 @@ In allen drei Dokumenten sind stehts die gleichen Elemente enhalten.
 
 ### Abhängigkeiten zwischen Aktivitäten
 
-- Ende → Start: Beginn nach Beendigung einer Vorgängeraktivität
-- Start → Start: Start nach Start einer anderen Aktivität
-- Ende → Ende: Abschluss bedingt vorherigen Abschluss einer anderen Aktivitäten
-- Start → Ende: Aktivität kann erst nach Start einer anderen Aktivität beendet werden
+- **Ende → Start**: Beginn nach Beendigung einer Vorgängeraktivität ![](static/11.png)
+- **Start → Start**: Start nach Start einer anderen Aktivität ![](static/12.png)
+- **Ende → Ende**: Abschluss bedingt vorherigen Abschluss einer anderen Aktivitäten ![](static/13.png)
+- **Start → Ende**: Aktivität kann erst nach Start einer anderen Aktivität beendet werden ![](static/14.png)
 
 ### Kritischer Pfad
 
@@ -808,6 +828,8 @@ Abfolge von derjenigen Aktivitäten, bei denen eine Verzögerung unmittelbar den
 - Kann in einem Unternehmen/Projekt hierarchisch strukturiert sein
 
 ### Steuerung von Projekten durch Lenkungsausschuss
+
+![](static/15.png)
 
 - Management by Exception: Der Projektleiter steuert verantwortlich im Rahmen der definierten Toleranz
   - Wenig regelmäßige Meeting
