@@ -387,3 +387,83 @@ Deshalb: **Strategisches Projektmanagement**:
 - Storming
 - Norming
 - Performing
+
+### Messgrößen für den Projekterfolg
+
+**Operatives Projektmanagement**:
+
+- Zeit
+- Finanzen
+- Funktionsumfang
+- Qualität
+
+Trotzdem gilt:
+
+- Ein Projekt, welches in Time, Quality und Budget ist, kann trotzdem scheitern
+- Ein Projekt ist erfolgreich, wenn der Business Case erfüllt ist (ROI/wirtschaftlicher Mehrwert erfüllt)
+
+### Planungsablauf
+
+1. Was?: To-do
+2. Wie?: Ansatz
+3. Wer und Womit?: Team
+4. Wie viel?: €
+5. Wann?: Zeit
+
+Herleitung der jeweiligen Inhalte → Produktbasierte Planung
+
+### Gründe für das Scheitern von Projekten
+
+- Aufwand falsch eingeschätzt
+- Kommunikationsprobleme
+- Planungsfehler
+- Individuelle/persönliche Fehler einzelner Beteiligter
+- Nicht erkannte Risiken
+- Spezifische Probleme
+- Keine Unterstützung durch das Management
+
+### Häufige Fehler in Planungen
+
+- Aufwand falsch eingeschätzt
+- Zusammenlegen von Planungsschritten
+- Planung unter Vorgaben
+- Zusammenlegung mehrerer Planungsschritte
+- Intuitive Ableitung von Aktivitäten aus den Anforderungen
+- Unterschätzen der technologischen Komplexität
+- Planung unter Vorgabe von Zeit und/oder Budget (2 Dimensionen)
+- Aus vorangegangenen Projekten "nichts gelernt".
+
+→ Ein Leitfaden ist wichtig!
+
+### Was macht IT-Projektmanagement aus?
+
+- Auf Prozess- und Tool-Ebene sehr generisch
+- Auf Methoden-Ebene sehr spezifisch
+- Allgemeine Projektmanagement-Szenarien (Prince2, GPM), angepasst auf
+  - Branchen
+  - Unternehmen (tayloring)
+- Bei IT-Projekten soll besonderer Fokus auf die spezifischen Methoden zur Bearbeitung gelegt werden
+
+### IT-Projektmanagement im Software-Entwicklungszyklus
+
+**IT-Beratung**:
+
+- Analyse
+- Bewertung
+- Design
+- Systemarchitekturen
+- Anwendungsarchitekturen
+- Anwendungsdesign
+
+**Softwareentwicklung**:
+
+- Design
+- Pilotieren
+- Umsetzung
+- Training/Coaching
+- Anwendungsentwicklung
+
+**Beide**:
+
+- Projektmethodik
+- Projektmanagement
