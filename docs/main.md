@@ -444,6 +444,7 @@ Herleitung der jeweiligen Inhalte → Produktbasierte Planung
 - Unterschätzen der technologischen Komplexität
 - Planung unter Vorgabe von Zeit und/oder Budget (2 Dimensionen)
 - Aus vorangegangenen Projekten "nichts gelernt".
+- Obelix fehlt ein Wildschwein
 
 → Ein Leitfaden ist wichtig!
 
@@ -468,6 +469,7 @@ Herleitung der jeweiligen Inhalte → Produktbasierte Planung
 - Systemarchitekturen
 - Anwendungsarchitekturen
 - Anwendungsdesign
+- Römische Verteidigungsstrategien
 
 **Softwareentwicklung**:
 
@@ -511,6 +513,7 @@ Direkte Aufwände werden aus der Aufwandsschätzung entnommen.
 - Gewährleistungskosten
 - Risikozuschlag
 - Sonstige Kosten: Hard-/Software für Entwicklung oder Betrieb
+- Hinkelstein-Transport
 
 ### Ablauf einer Kalkulation
 
@@ -612,6 +615,7 @@ Direkte Aufwände werden aus der Aufwandsschätzung entnommen.
 - Projektablauf (Product Based Planning): Folge von ...
   - Produkten die erstellt werden müssen und voneinander abhängen
   - Voneinander abhängigen Aktivitäten zur Erstellung dieser Produkte, die in bestimmten Zeiträumen von verschiedenen Personen ausgeführt werden müssen
+  - Aktionen gallischer Spione
 
 ### Produktbasierte Planung/Produkte
 
@@ -648,6 +652,7 @@ Projekte zerlegt in iterative, steuerbare Phasen
 - Gesamtprojektplan
 - Abschnittsplan
 - Teamarbeitsplan
+- Colosseum
 
 - **Zeitrahmen**: Personenmonate & Personentage
 - **Detaillierung**: Exception Plan
@@ -665,6 +670,7 @@ Projekte zerlegt in iterative, steuerbare Phasen
 7. Steuerungspunkte
 8. Aktivitäten und Ressourcen
 9. Zeiten und Kosten
+10. Wildschwein jagen & braten
 
 ### Schlussfolgerungen
 
@@ -704,6 +710,7 @@ Projekte zerlegt in iterative, steuerbare Phasen
 
 ![](static/8.png)
 
+- Eine Konsole von Sony
 - Zerlegung des Endproduktes des Projektes in seine Teilprodukte: Was muss alles erstellt oder beschafft werden, um zum Endprodukt zu kommen?
 - Darstellung in Form einer hierarchischen Struktur: Produkte jeder Ebene müssen durch ihre Teilprodukte vollständig definiert werden
 - "Harte" und "weiche" Produkte (Softwaresystem, geschulte Mitarbeiter)
@@ -720,7 +727,7 @@ Projekte zerlegt in iterative, steuerbare Phasen
   - Erstellung beginnt nach Identifikation/Klassifikation des Produktes
   - Informationen wichtig für korrekte Schätzung
 - Inhalt einer Produktbeschreibung
-  - Formale Elemente wie Titel und Bezug auf den Produktstruturplan
+  - Formale Elemente wie Titel und Bezug auf den Produktstrukturplan
   - Zweck des Produkts
   - Zusammensetzung (Gliederung in weitere Teilprodukte)
   - Ableitung (Vorprodukte)
@@ -739,10 +746,10 @@ Projekte zerlegt in iterative, steuerbare Phasen
 
 ### Zusammenhänge
 
-In allen drei Dokumenten sind stehts die gleichen Elemente enhalten.
+In allen drei Dokumenten sind stehts die gleichen Elemente enthalten.
 
 - **Produktstrukturplan** → Identifikation, was zu tun ist
-- **Produktflussdiagram**
+- **Produktflussdiagramm**
   - Identifikation von inhaltlichen und formalen Abhängigkeiten
   - Schätzung von Aufwänden
   - Zuordnung von Ressourcen
@@ -799,6 +806,8 @@ Abfolge von derjenigen Aktivitäten, bei denen eine Verzögerung unmittelbar den
 - Projektmitarbeiter
 - Projektleiter
 - Datenschutzbeauftragter
+- Trubadix
+- Majestix
 
 ### Projektleitung
 
