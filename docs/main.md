@@ -679,3 +679,167 @@ Projekte zerlegt in iterative, steuerbare Phasen
 - Maßnahmen und Zeitpunkte zur Kontrolle und Steuerung während der Phase
 - Kommunikationsplan (Reporting) für die Phase
 - Risikobetrachtung für die Phase
+
+## Gantt
+
+### PSP: Produktstrukturplan
+
+- Zerlegung des Endproduktes des Projektes in seine Teilprodukte: Was muss alles erstellt oder beschafft werden, um zum Endprodukt zu kommen?
+- Darstellung in Form einer hierarchischen Struktur: Produkte jeder Ebene müssen durch ihre Teilprodukte vollständig definiert werden
+- "Harte" und "weiche" Produkte (Softwaresystem, geschulte Mitarbeiter)
+- Kriterien zur Gliederungstiefe
+  - Planungsgranularität: Die kleinste vereinbarte Planungseinheit wurde erreicht
+  - Geringes Risiko: Klar definiertes Produkt, das in einem überschaubaren Prozess erstellt werden kann
+  - Externes Modul: Das Produkt ist klar definiert und wird als Modul von extern bereitgestellt
+  - Standard-Modul: Das eingesetzte Produkt ist ein Standard-Modul
+
+### Produktbeschreibungen
+
+- Prinzip
+  - Ziel ist die Festlegung aller Elemente für eine erfolgreiche Produkterstellung
+  - Erstellung beginnt nach Identifikation/Klassifikation des Produktes
+  - Informationen wichtig für korrekte Schätzung
+- Inhalt einer Produktbeschreibung
+  - Formale Elemente wie Titel und Bezug auf den Produktstruturplan
+  - Zweck des Produkts
+  - Zusammensetzung (Gliederung in weitere Teilprodukte)
+  - Ableitung (Vorprodukte)
+  - Form des Produktes (Formate, Richtlinien)
+  - Verantwortlicher für Erstellung
+  - Qualitätskriterien
+  - Abnahmeverfahren mit Abnahmebedingung, -kriterien und Verantwortlichen
+
+### Produktflussdiagramm
+
+- Produkte des Projektes in der Reihenfolge ihre Erstellung
+- Fremdprodukte kennzeichnen (Ovale)
+- Produktstrukturplan aktualisieren
+
+### Zusammenhänge
+
+In allen drei Dokumenten sind stehts die gleichen Elemente enhalten.
+
+- **Produktstrukturplan** → Identifikation, was zu tun ist
+- **Produktflussdiagram**
+  - Identifikation von inhaltlichen und formalen Abhängigkeiten
+  - Schätzung von Aufwänden
+  - Zuordnung von Ressourcen
+- **Projektplan** → Darstellung der resultierenden zeitlichen Abhängigkeit
+
+### Dokumentation des Projektplans
+
+- Plan muss überarbeitet werden, wenn er fertig ist
+- Festschreibung des Status der Planung zu ausgewählten Zeitpunkten
+- Zusammenfassung in speziellen Dokumenten (ggf. mit Verweisen)
+- Weiterentwicklung der Inhalte in neuen Dokumenten
+
+### Terminplanung durchführen
+
+- Ablaufplanung
+  - Den Aktivitäten Ressourcen zuordnen
+  - Zeitlichen Ablauf mit Terminen festlegen: Abhängigkeiten berücksichtigen
+    - Notwendige Vorarbeiten/Vorprodukte
+    - Ressourcenverfügbarkeit
+    - Ressourcen gleichmäßig auslasten
+  - Meilensteine definieren
+
+### Abhängigkeiten zwischen Aktivitäten
+
+- Ende → Start: Beginn nach Beendigung einer Vorgängeraktivität
+- Start → Start: Start nach Start einer anderen Aktivität
+- Ende → Ende: Abschluss bedingt vorherigen Abschluss einer anderen Aktivitäten
+- Start → Ende: Aktivität kann erst nach Start einer anderen Aktivität beendet werden
+
+### Kritischer Pfad
+
+Abfolge von derjenigen Aktivitäten, bei denen eine Verzögerung unmittelbar den Endtermin beinflusst.
+
+## Projektorganisation
+
+### Grundlagen
+
+- Grundlegendes Element aller Projekte ist eine spezielle Organisation
+- Erfolgsfaktoren
+  - Wer ist beteiligt? → Rollen, Personen
+  - Welche Spielregeln gelten? → **AKV**: Aufgaben, Kompetenzen, Verantwortung
+- Vollständige Zuordnung aller Rollen zu Personen
+- Wahrung des AKV-Prinzips
+
+### Rollen in Projekten
+
+- Auftraggeber
+- Teilprojektleiter
+- QS-Beauftragter
+- Benutzer
+- Lieferant & Lieferant Third-Party-Produkte
+- Projektmitarbeiter
+- Projektleiter
+- Datenschutzbeauftragter
+
+### Projektleitung
+
+- Verantwortet die Planung
+- Bildet und steuert das Team
+- Gibt Arbeitsaufträge und verfolgt deren Erledigung
+- Sorgt für die Einhaltung der Vorgaben bezüglich Kosten, Zeit und Qualität
+- Leitet Maßnahmen bei Planabweichungen ein
+- Entscheidet im Rahmen des Entscheidungsspielraums
+- Informiert den Lenkungsausschuss und die Teams
+- Hat den Überblick und sorgt für Transparenz
+
+### Teams in Projekten
+
+- **Lenkungsausschuss**: Gesamtverantwortung
+- **Projektaufsicht**: Überwachung der Projektdurchführung
+- **Projektunterstützung**: Unterstützung des Projektleiters bei administrativen Aufgaben
+- **Projektteam**: Durchführung dedizierter Aufgaben
+
+### Der Lenkungsausschuss (Lenkungskreis, Steering Comitee, Projektausschuss)
+
+- Verantwortet den Projekterfolg
+- Ist das Entscheidungsgremium im Projekt
+- Beauftragt, steuert und unterstützt den Projektleiter
+- Setzt sich aus den Rollen Auftraggeber, Nutzer und Lieferant zusammen
+- Der Projektleiter berichtet an den Lenkungsausschuss
+- Kann in einem Unternehmen/Projekt hierarchisch strukturiert sein
+
+### Steuerung von Projekten durch Lenkungsausschuss
+
+- Management by Exception: Der Projektleiter steuert verantwortlich im Rahmen der definierten Toleranz
+  - Wenig regelmäßige Meeting
+  - Regelmäßige Statusberichte
+  - Phasenabschlussberichte
+  - Reviews zu Phasenenden mit Entscheidung über die nächsten Phase
+  - Eskalation und Entscheidungsvorlagen bei Eintritt von Ausnahmesituationen
+  - Bedingt Vertrauen in den Projektleiter
+- Direkte Steuerung: Der Projektleiter stimmt permanent seine Maßnahmen mit Lenkungsteam ab
+  - Häufige Meetings mit vielen Details
+  - Lenkungsteam macht (teilweise) Arbeit des Projektleiters
+  - Holy fucking shit das ist Micromanagement lest das Agile Manifesto warum lernen wir diesen 20 Jahre alten Sch\* Allahu akbar
+  - Lenkungsteam hat "alles unter Kontrolle"
+
+### Projektaufsicht
+
+- Wird vom Lenkungsausschuss eingesetzt
+- Wird auf Initiative des Projektleiters oder Lenkungsausschusses aufgesetzt: Entlastet und Kontrolliert den Projektleiter
+- Berichtet direkt an den Lenkungsausschuss
+- Aufgaben
+  - Controlling
+  - Qualitätssicherung
+  - Datenschutz
+  - Risikomanagement
+  - Überwachung des Budgets
+  - Überwachung der Qualität
+
+### Projektunterstützung (Projektbüro/Projekt-Office)
+
+- Unterstützt den Projektleiter bei
+  - Planung
+  - Controlling
+  - Technische Unterstützung
+- Stabsaufgaben des Projektleiters
+  - Verwaltung der Unterlagen
+  - Versionsverwaltung des Quellcodes
+- Dient als organisatorisches Rückgrat des Projekts
+  - Organisation von Meetings
+  - Materialbeschaffung
