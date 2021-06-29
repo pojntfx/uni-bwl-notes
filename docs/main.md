@@ -467,3 +467,215 @@ Herleitung der jeweiligen Inhalte → Produktbasierte Planung
 
 - Projektmethodik
 - Projektmanagement
+
+## Kalkulation von IT-Projekten
+
+### Faktoren der Kalkulation
+
+Direkte Aufwände werden aus der Aufwandsschätzung entnommen.
+
+- **Projekttypen**
+  - Time-and-Material (Body Leasing)
+  - Budgetierte TM-Projekte
+  - Festpreisprojekte
+  - Fixierte Projekte
+- **Art des Vertrags aus kaufmännischer Sicht**
+  - Werkvertrag
+  - Werklieferungsvertrag
+  - "Full Service"
+- **Art der Kunden-Lieferanten-Beziehung**
+  - Interner Dienstleister
+  - Externer Dienstleister
+  - Reiner Support (Body Leasing)
+
+### Aufwände in der Kalkulation
+
+- Abwälzung der Kosten für die Angebotserstellung
+- Einarbeitung und Schulung von Projektmitarbeitern
+- Projektleitungsaufwände
+- Reisekosten
+- Gewährleistungskosten
+- Risikozuschlag
+- Sonstige Kosten: Hard-/Software für Entwicklung oder Betrieb
+
+### Ablauf einer Kalkulation
+
+1. Netto-Aufwand (inkl. Modul und Systemtest) += Umfang in Projektstunden
+2. Abnahmetest += Prozentualer Aufschlag 15-25%
+3. Projektmanagement += Prozentualer Aufschlag 20-30%
+4. Risikozuschlag += Prozentualer Aufschlag 10-15%
+5. Gewährleistung += Prozentualer Aufschlag 5-10%
+6. Festpreis
+
+### Probleme aus dem realen Leben
+
+- Preise müssen in der Regel lange vor dem Projektstart genannt werden
+- Personal-Ressourcen können erst unmittelbar vor Projektstart zugeordnet werden (Henne-Ei-Problem)
+- Kalkulation muss mit Rollen geschätzt werden
+- Prozentuale Zuschläge aus der Analyse abgeschlossener Projekte
+- Personalkostensätze aus dem Rechnungswesen
+
+## Controlling
+
+### Geschichte
+
+- Ursprung im Rechnungswesen
+- Erst seit 70ern in Deutschland relevant
+- Kosten des Unternehmens stehen im Vordergrund
+
+### Zielsetzung und Grenzen
+
+- Ziele
+  - Verbesserung der Leistungsprozesse durch eine neue Qualität des Managementprozesses
+  - Ermöglicht dem Manager durch die Bereitstellung eines in sich schlüssigen Vorgehens die systematische Abwicklung von Managementaufgaben
+- Grenzen: Controlling beschäftigt sich nicht mit ...
+  - Informationsversorgung im Unternehmen
+  - Organisation im Unternehmen
+  - Personalführung im Unternehmen
+
+### Bereiche des Controlling
+
+- Ziele setzen
+- Planen
+- Überwachen
+- Steuern
+
+### Controlling in der IT
+
+- IT-Controlling
+  - Bewertet die IT in einem Unternehmen
+  - Vielfach im RZ-Bereich eingesetzt
+  - Ziel: Ableitung von Kennzahlen für die Abrechnung der Dienstleistung Applikationsbetrieb
+- IT-Projekt-Controlling
+  - Verfolgt die Projektarbeit
+  - Stellt durch die Betrachtung des Bereitstellungsprozesses einen Aspekt des IT-Controllings dar
+- Art und Umfang des Controllings ist abhängig vom Projekttyp
+  - Nahezu kein Controlling: TM-Projekte
+  - Einfaches Controlling (Forecasting): Budgetierte TM-Projekte
+  - Intensives Controlling: Festpreisprojekte & Fixierte Projekte
+- Zeitpunkte des Controllings
+  - Regelmäßig: Wöchentlich bis max. monatlich
+  - Phasengrenzen/Meilensteine
+- Sehr eng mit der Aufwandsschätzung verbunden
+
+### Status- und Fortschrittsindikator
+
+- Es sind zu einem Zeitpunkt $i$
+  - $x_i\%$ der Arbeit geleistet
+  - $y_i\%$ des Budget (Zeit oder Geld) verbraucht
+- Der Quotient $S_i=x_i/y_i$ gibt den Projektstatus wieder
+  - $S>1$: positiv
+  - $S=1$: neutral
+  - $S<1$: negativ
+- Seine Ableitung $F_i=\frac{x_{i-1}-x_i}{y_{i-1}-y_i}$ gibt den Projektfortschritt wieder
+
+## Produktbasierte Planung
+
+### Definition
+
+- Jede Aktivität führt zu einem Ergebnis, sonst kann auf sie verzichtet werden
+- Ergebnisse sind Produkte
+
+### Prince2: Projects in Controlled Environments
+
+- Ist eine Projektmanagement-Methode
+  - Branchen- und größenunabhängig einsetzbar
+  - Skalierbar
+  - Eigentümer: CCTA in UK
+- Definiert
+  - Komponenten: Inhalte und Themen, die vom Projektmanagement zu behandeln sind
+  - Prozesse: Aktivitäten, deren Reihenfolge und Ergebnisse und deren Zusammenspiel den gesamten Projektverlauf abdecken
+
+### Der Plan: Grundlagen
+
+- Rückgrat des Projektmanagements
+- Legt fest, wie wann und durch wen Ziele erreicht werden sollen
+- Ziele
+  - Produkte/Ergebnisse
+  - Termine
+  - Kosten
+  - Qualität
+- Projektablauf (Product Based Planning): Folge von ...
+  - Produkten die erstellt werden müssen und voneinander abhängen
+  - Voneinander abhängigen Aktivitäten zur Erstellung dieser Produkte, die in bestimmten Zeiträumen von verschiedenen Personen ausgeführt werden müssen
+
+### Produktbasierte Planung/Produkte
+
+- Spezialistenprodukte: Die eigentlichen Produkte der Projektarbeit
+  - Spezifikationen
+  - Design- und Architekturkonzepten
+  - Prototypen
+  - Quellcode
+  - Installierte Software
+  - Konfigurierte Basissysteme
+  - Testdaten
+  - Stamm- und Konfigurationsdaten
+- Managementprodukte
+  - Alles, was das Projektmanagement produziert (Pläne, Berichte, ...)
+  - Dinge wie "informierte Mitarbeiter" als Produkt von Meetings
+- QS-Produkte: Produkte, die das Qualitätsmanagement produziert
+  - Produktbeschreibung
+  - Qualitätspläne
+  - Prüfergebnisse
+
+### Aspekte Iterativer Projekte
+
+Projekte zerlegt in iterative, steuerbare Phasen
+
+- Zusätzlich: Managementsicht; nicht unbedingt Phasen des Vorgehensmodells
+- Phasenenden sollte nach der Erstellung von Schlüsselprodukten angesetzt werden
+- Aktivitäten können Phasenenden überschreiten (keine Leerlaufzeiten)
+- Projektstillstand bei Phasenübergängen sollte unbedingt vermieden werden
+
+### Planungsebenen
+
+- Gesamtprojektplan
+- Abschnittsplan
+- Teamarbeitsplan
+
+- **Zeitrahmen**: Personenmonate & Personentage
+- **Detaillierung**: Exception Plan
+
+### Aufbau eines Plans
+
+1. Produkte
+2. Voraussetzungen & Qualitätsanforderungen
+3. Annahmen
+4. Aktivitäten
+5. Ressourcen
+6. Risiken
+7. Steuerungspunkte
+8. Aktivitäten und Ressourcen
+9. Zeiten und Kosten
+
+### Schlussfolgerungen
+
+- Wann, wie und zu welchen Kosten soll das Projektziel erreicht werden?
+- Was sind die Hauptprodukte, die zu erstellen sind?
+- Wird zu Projektbeginn erstellt und wird im Projektverlauf angepasst (Versionierung!)
+- Liefert v.a. bei iterativem Vorgehen die Kostenseite für den Business Case
+
+### Inhalte des Projektplans
+
+- Kurze Beschreibung, was der Plan abdeckt (Projektvorgehen)
+- Voraussetzung für die Durchführung des Projekts
+- Abhängigkeiten von äußeren Einflüssen (z.B. Zulieferungen, Entscheidungen)
+- Annahmen, die dem Plan zugrunde liegen
+- Eigentlicher Plan
+  - Produktstrukturplan
+  - Produktflussdiagramm
+  - Produktbeschreibung
+  - Ablaufplan mit Phasen (Gantt)
+  - Aktivitäten-Netzplan
+  - Kostenaustellungen
+  - Ressourcenbedarf
+  - Anforderungen für Ressourcen
+
+### Phasenplan
+
+- Qualitätsplan
+  - Qualitätssicherungsmaßnahmen für die Hauptprodukte der Phase
+  - Benötigte Ressourcen zur Durchführung der Maßnahmen
+- Maßnahmen und Zeitpunkte zur Kontrolle und Steuerung während der Phase
+- Kommunikationsplan (Reporting) für die Phase
+- Risikobetrachtung für die Phase
