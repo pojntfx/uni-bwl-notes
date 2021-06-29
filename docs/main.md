@@ -5,7 +5,7 @@
 
 # Uni BWL Notes
 
-## Einführung
+## Einführung in das Rechnungswesen
 
 ### Definition Rechnungswesen
 
@@ -56,7 +56,7 @@ Durch Geld bewertete Güter und Dienstleistungen eines Unternehmens:
 - **Leistungen**: Erstellte Güter und Dienstleistungen
 - **Kosten**: Verbrauchte Güter und Dienstleistungen
 
-## Externes Rechnungswesen
+## Einführung in das externe Rechungswesen
 
 ### Definition externes Rechnungswesen
 
@@ -216,7 +216,7 @@ Vor allem bei der Zuordnung in der Bilanz wichtig.
 - **Umlaufvermögen**: Liquide Mittel/Geld; Bank, Forderungen, Kasse, Skonti & Boni, Vorsteuer
 - **Schulden**/**Fremdkapital**: Darlehen, Verbindlichkeiten, ...
 
-## Wichtige Sonderfälle
+## Besonders wichtige "Sonderfälle"
 
 ### Abschreibungen für Abnutzung
 
@@ -254,7 +254,7 @@ Vor allem bei der Zuordnung in der Bilanz wichtig.
 - Auf jeder Rechnung muss die enthaltene MwSt ausgewiesen werden
 - Abschreibung nur Nettowert (also mit abgezogenen Steuern)
 
-## Internes Rechnungswesen (Projektkalkulation)
+## Internes Rechnungswesen: Projektkalkulation
 
 ### Grenzen des externen Rechnungswesens
 
@@ -283,6 +283,8 @@ Daten, um qualifizierte Entscheidungen für folgende Bereiche zu treffen, fehlen
 - Ist der Vorgang mit dem Betriebszweck (→ dauerhaft verfolgte Arbeits- und Produktionsziel eines Betriebes) verbunden?
 - Ist der Vorgang periodengerecht (→ wirkt sich auf das Geschäftsjahr aus)?
 - Verursachungsgerechtigkeit: Erfolgt eine sachgerechte Zuordnung?
+
+## Kostenrechnung
 
 ### Aufbau der Kostenrechnung
 
@@ -680,7 +682,7 @@ Projekte zerlegt in iterative, steuerbare Phasen
 - Kommunikationsplan (Reporting) für die Phase
 - Risikobetrachtung für die Phase
 
-## Gantt
+## Darstellung mittels Diagrammen
 
 ### PSP: Produktstrukturplan
 
