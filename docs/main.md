@@ -211,7 +211,9 @@ Werden mit GuV ausgeglichen und in dieser aufgeführt.
 **Links** → Abgänge
 **Rechts** → Zugänge
 
-- Umsatzerlöse (Lizenzen, Beratungen, ...)
+- Umsatzerlöse (Lizenzen, Beratungen, ...): Es können neue Konten für Leistungstypen erfunden werden, z.B.:
+  - Umsatzerlöse-Waren
+  - Umsatzerlöse-Dienstwaren
 - A.o. Ertrag
 
 ### Vermögen und Schulden
