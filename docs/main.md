@@ -2,10 +2,30 @@
 % Felicitas Pojtinger
 % \today
 \tableofcontents
+\newpage
 
 # Uni BWL Notes
 
-> These study materials are heavily based on [professor Hinkelmann's "Planung und Kalkulation von IT-Projekten" lecture at HdM Stuttgart](https://www.hdm-stuttgart.de/hdm-band/studieninteressierte/bachelor/vorlesung_detail?ansicht=1&vorlid=5215477&sgbvsid=5171832).
+## Introduction
+
+### Contributing
+
+These study materials are heavily based on [professor Hinkelmann's "Planung und Kalkulation von IT-Projekten" lecture at HdM Stuttgart](https://www.hdm-stuttgart.de/hdm-band/studieninteressierte/bachelor/vorlesung_detail?ansicht=1&vorlid=5215477&sgbvsid=5171832).
+
+**Found an error or have a suggestion?** Please open an issue on GitHub ([github.com/pojntfx/uni-bwl-notes](https://github.com/pojntfx/uni-bwl-notes)):
+
+![QR code to source repository](./static/qr.png){ width=150px }
+
+If you like the study materials, a GitHub star is always appreciated :)
+
+### License
+
+![AGPL-3.0 license badge](https://www.gnu.org/graphics/agplv3-155x51.png){ width=128px }
+
+Uni BWL Notes (c) 2021 Felicitas Pojtinger and contributors
+
+SPDX-License-Identifier: AGPL-3.0
+\newpage
 
 ## Einführung in das Rechnungswesen
 
@@ -62,9 +82,11 @@ Durch Geld bewertete Güter und Dienstleistungen eines Unternehmens:
 - **Leistungen**: Erstellte Güter und Dienstleistungen
 - **Kosten**: Verbrauchte Güter und Dienstleistungen
 
-## Einführung in das externe Rechungswesen
+## Externes Rechnungswesen
 
-### Definition externes Rechnungswesen
+### Einführung
+
+#### Definition externes Rechnungswesen
 
 Die Buchführung erfasst aufgrund von **Belegen** ...
 
@@ -75,43 +97,43 @@ Die Buchführung erfasst aufgrund von **Belegen** ...
 
 HGB und Abgabenordnung verpflichten zur Buchführung.
 
-### Beispiele für Belege
+#### Beispiele für Belege
 
 - Beschaffung: Einkauf von PC-Bauteilen → Eingangsrechnung
 - Fertigung: Zusammenbau eines PC nach Kundenwunsch → Entnahmeschein
 - Absatz: Verkauf eines PC → Ausgangsrechnung
 
-### Arten der Buchführung
+#### Arten der Buchführung
 
 - Doppelte Buchführung (Dopik, Standard)
 - Einfache Buchführung (Einnahmen-Überschuss-Rechnung; legal wenn unter 500 000€ Jahresumsatz und nicht mehr als 50 000€ Gewinn gemacht werden!)
 - Kameralistik (Schatzkammer)
 
-### Begriffe der Dopik
+#### Begriffe der Dopik
 
 - **Geschäftsvorfall**: Vorgang mit wertmäßiger Veränderung in thematischen Kontexten
 - **Konto**: Thematisch abgegrenzter Kontext, in welchem wertmäßige Veränderungen erfasst werden
 - **Kontenrahmen**: Vorgeschlagene Struktur der thematischen Gliederung eines Unternehmens (IKR, DATEV)
 - **Buchungssatz**: Strukturierte, formelle Abbildung eines Geschäftsvorfalls in einem Unternehmen
 
-### Instrumente des Jahresabschlusses bei Dopik
+#### Instrumente des Jahresabschlusses bei Dopik
 
 - Inventur und Inventar
 - Bilanzrechnung
 - Gewinn- und Verlustrechnung (GuV)
 
-### Umsetzung der Dopik
+#### Umsetzung der Dopik
 
 - **T-Konten**: Jedes Konto hat eine Soll- und Haben-Seite
 - Jedes T-Konto muss beim Abschluss stets ausgeglichen sein ("Balkenwage")
 - Jeder Soll-Buchung steht eine Haben-Buchung in gleicher Höhe gegenüber
 - Buchungssätze sind Skriptsprache für Wertveränderungen
 
-### Skriptsprache für Buchungssätze
+#### Skriptsprache für Buchungssätze
 
 Syntax: `<Soll-Konto> [und VST-19 ${MwSt-Anteil}] an <Haben-Konto> ${Betrag} [und VST-19 ${MwSt-Anteil}]`
 
-### Grundsätze der ordnungsgemäßen Buchführung
+#### Grundsätze der ordnungsgemäßen Buchführung
 
 - **Klar und übersichtlich**
   - Sachgerechte und überschaubare Organisation
@@ -124,12 +146,12 @@ Syntax: `<Soll-Konto> [und VST-19 ${MwSt-Anteil}] an <Haben-Konto> ${Betrag} [un
 - **Keine Buchung ohne Beleg**
 - **Aufbewahrung der Unterlagen für 10 Jahre**
 
-### Aufwandskonto vs. Vermögenskonto
+#### Aufwandskonto vs. Vermögenskonto
 
 - Produkt wird **sofort verbraucht**: Verbuchung über ein Aufwandskonto
 - Produkt wird **längeren Zeitraum genutzt**: Verbuchung über ein Vermögenskonto
 
-### Voraussetzungen für die Buchführung
+#### Voraussetzungen für die Buchführung
 
 - Exaktes Wissen über alle Vermögensstände des Unternehmens und deren Finanzierung
 - **Inventur/Bestandsaufnahme**: Erhebung von Wissen über den Bestand
@@ -139,13 +161,13 @@ Syntax: `<Soll-Konto> [und VST-19 ${MwSt-Anteil}] an <Haben-Konto> ${Betrag} [un
 - **Fremdkapital**: Geliehene Mittel
   - Ein Lieferant hat Artikel geliefert, welcher erst in 4 Wochen bezahlt werden muss: **Verbindlichkeiten**
 
-### Inventur
+#### Inventur
 
 - Aufnahme der Menge und Wert (am Stichtag) aller Vermögensteile und Schulden
 - Zeitpunktbasiert: Gründung, Gesellschaftswechsel, Verkauf
 - Buch- oder Körperliche Inventur möglich (Soll-Ist-Abgleich)
 
-### Inventar
+#### Inventar
 
 - Strukturierte Aufstellung: Vermögen, Schulden und Eigenkapital/Reinvermögen
 - Geordnet nach Flüssigkeit/Fälligkeit
@@ -153,13 +175,13 @@ Syntax: `<Soll-Konto> [und VST-19 ${MwSt-Anteil}] an <Haben-Konto> ${Betrag} [un
 - Muss 10 Jahre aufbewahrt werden
 - Eigenkapitalrentabilität: Verzinsung des Eigenkapitals/Reinvermögens
 
-### Bilanz
+#### Bilanz
 
 - Strukturelle Gegenüberstellung des Vermögens und seiner Finanzierung durch Eigenkapital und Schulden
 - **Aktiva**: Vermögen → Linke Seite
 - **Passiva**: Mittelherkunft, "womit das Vermögen finanziert wird" → Rechte Seite
 
-### Aktivkonten/Vermögenskonto
+#### Aktivkonten/Vermögenskonto
 
 Werden mit SB ausgeglichen und in dieser aufgeführt.
 
@@ -177,7 +199,7 @@ Werden mit SB ausgeglichen und in dieser aufgeführt.
 - Maschinen
 - VST-19: Vorsteuer
 
-### Aufwandskonten
+#### Aufwandskonten
 
 **Links** → Zugänge
 **Rechts** → Abgänge
@@ -192,7 +214,7 @@ Werden mit GuV ausgeglichen und in dieser aufgeführt.
 - Bewirtung
 - AfA: Abschreibungen
 
-### Passivkonten/Fremdkapitalkonto
+#### Passivkonten/Fremdkapitalkonto
 
 Werden mit SB ausgeglichen und in dieser aufgeführt.
 
@@ -204,7 +226,7 @@ Werden mit SB ausgeglichen und in dieser aufgeführt.
 - UST-19: Umsatzsteuer
 - Eigenkapital
 
-### Ertragskonten
+#### Ertragskonten
 
 Werden mit GuV ausgeglichen und in dieser aufgeführt.
 
@@ -216,7 +238,7 @@ Werden mit GuV ausgeglichen und in dieser aufgeführt.
   - Umsatzerlöse-Dienstwaren
 - A.o. Ertrag
 
-### Vermögen und Schulden
+#### Vermögen und Schulden
 
 Vor allem bei der Zuordnung in der Bilanz wichtig.
 
@@ -224,9 +246,9 @@ Vor allem bei der Zuordnung in der Bilanz wichtig.
 - **Umlaufvermögen**: Liquide Mittel/Geld; Bank, Forderungen, Kasse, Skonti & Boni, Vorsteuer
 - **Schulden**/**Fremdkapital**: Darlehen, Verbindlichkeiten, ...
 
-## Besonders wichtige "Sonderfälle"
+### Besonders wichtige "Sonderfälle"
 
-### Abschreibungen für Abnutzung
+#### Abschreibungen für Abnutzung
 
 ![](static/3.png)
 
@@ -240,7 +262,7 @@ Vor allem bei der Zuordnung in der Bilanz wichtig.
 - Bei geringwertigen Wirtschaftsgern gelten Sonderregeln
 - Nach Abschreibung bleiben Güter mit Rest- oder Erinnerungswert von 1€ im Unternehmensvermögen
 
-### Einführung in Mehrwertsteuer (MwSt)
+#### Einführung in Mehrwertsteuer (MwSt)
 
 - **Netto**: Ohne Steuern ("Netto isch net so viel")
 - **Brutto**: Mit Steuern
@@ -256,7 +278,7 @@ Vor allem bei der Zuordnung in der Bilanz wichtig.
   - **Umsatzsteuer**: Im **Verkaufspreis** ist MwSt erhalten (_Wir stellen die Rechnung_): $+$
   - Steuerlast des Unternehmens: $Vereinnahmte\ Umsatzsteuer - bezahlte\ Vorsteuer$
 
-### MwSt in der Buchhaltung
+#### MwSt in der Buchhaltung
 
 - Kontenpaare
   - Vorsteuer-Konto: Aktives Bestandskonto/Vermögenskonto
@@ -264,9 +286,11 @@ Vor allem bei der Zuordnung in der Bilanz wichtig.
 - Auf jeder Rechnung muss die enthaltene MwSt ausgewiesen werden
 - Abschreibung nur Nettowert (also mit abgezogenen Steuern)
 
-## Internes Rechnungswesen: Projektkalkulation
+## Internes Rechnungswesen
 
-### Grenzen des externen Rechnungswesens
+### Projektkalkulation
+
+#### Grenzen des externen Rechnungswesens
 
 Siehe [Funktionen des Rechnungswesens](#funktionen-des-rechnungswesens).
 
@@ -287,16 +311,16 @@ Daten, um qualifizierte Entscheidungen für folgende Bereiche zu treffen, fehlen
 - Preisgestaltung
 - Plandaten (Soll-Ist-Abgleich)
 
-### Fragestellungen an das interne Rechnungswesen
+#### Fragestellungen an das interne Rechnungswesen
 
 - Hat der Vorgang Einfluss auf das Betriebsergebnis (→ steuerlich relevanter Gewinn), nur auf das Spartenergebnis oder keinerlei Einfluss?
 - Ist der Vorgang mit dem Betriebszweck (→ dauerhaft verfolgte Arbeits- und Produktionsziel eines Betriebes) verbunden?
 - Ist der Vorgang periodengerecht (→ wirkt sich auf das Geschäftsjahr aus)?
 - Verursachungsgerechtigkeit: Erfolgt eine sachgerechte Zuordnung?
 
-## Kostenrechnung
+### Kostenrechnung
 
-### Aufbau der Kostenrechnung
+#### Aufbau der Kostenrechnung
 
 - **Kostenarten-Rechnung**: Erfassung der Kosten differenziert nach ver- oder gebrauchten Produktionsfaktoren
 - **Kostenstellen-Rechnung**: Kostenstellen-bezogene Erfassung von Kostenträger-Gemeinkosten und Verechnung auf Endkostenstellen
@@ -305,7 +329,7 @@ Daten, um qualifizierte Entscheidungen für folgende Bereiche zu treffen, fehlen
 - **Kostenträger-Einzelkosten**: z.B. Verwendung von Rohmaterialien und Bauteilen
 - **Kostenträger-Gemeinkosten**: z.B. Verwendung von Hilfsstoffen oder Aufwand in der Personalbuchhaltung
 
-### Grundsätze der Kostenstellenbildung
+#### Grundsätze der Kostenstellenbildung
 
 Definition Kostenstelle: _Ort der Kostenentstehung und der Leistungserbringung. Sie wird nach Verantwortungsbereichen, räumlichen, funktionalen, aufbauorganisatorischen oder verrechnungstechnischen Aspekten gebildet._
 
@@ -314,7 +338,7 @@ Definition Kostenstelle: _Ort der Kostenentstehung und der Leistungserbringung. 
 - Möglichkeit einer fehlerfreien Kontierung (Eindeutigkeit und Klarheit)
 - Wirtschaftlichkeit
 
-### Aspekte der Bildung von Kostenstellen
+#### Aspekte der Bildung von Kostenstellen
 
 - Verantwortungsbereiche
 - Räumliche Lage
@@ -322,7 +346,7 @@ Definition Kostenstelle: _Ort der Kostenentstehung und der Leistungserbringung. 
 - Organisatorischer Aufbau
 - Verrechnungstechnischer Aufbau
 
-### Kostenträger in IT-Unternehmen
+#### Kostenträger in IT-Unternehmen
 
 Definition Kostenträger: _Die in einem Unternehmen hergestellten Produkte oder Dienstleistungen._
 
@@ -337,9 +361,9 @@ Definition Kostenträger: _Die in einem Unternehmen hergestellten Produkte oder 
   - Gemeinkosten: $= Entwicklungskosten$, werden auf die geplante Stückzahl verteilt
   - Wichtig: Die Entscheidung, die Software zu entwickeln, ist eine Investitionsentscheidung!
 
-## Planung von IT-Projekten
+### Planung von IT-Projekten
 
-### Definition Projekt vs. Routinevorgang
+#### Definition Projekt vs. Routinevorgang
 
 **Eigenschaften**:
 
@@ -353,7 +377,7 @@ Definition Kostenträger: _Die in einem Unternehmen hergestellten Produkte oder 
 
 **Projektmanagement**: Gesamtheit aller Tätigkeiten, Prozesse, Werkzeuge und Methoden zur Führung eines Projekts
 
-### Elemente des Projektmanagements
+#### Elemente des Projektmanagements
 
 _aber bin ich in einem Tollhause? bin ich selbst toll?_ - E.T.A. Hoffmann, "Der goldne Topf"
 
@@ -379,7 +403,7 @@ _aber bin ich in einem Tollhause? bin ich selbst toll?_ - E.T.A. Hoffmann, "Der 
 - Planung
 - Vorgehensmodelle
 
-### Der Business-Lifecycle
+#### Der Business-Lifecycle
 
 ![](static/5.png)
 
@@ -389,7 +413,7 @@ _aber bin ich in einem Tollhause? bin ich selbst toll?_ - E.T.A. Hoffmann, "Der 
 - IT-Projekte werden nur in Ausnahmefällen von der IT-Abteilung verantwortet
 - Projektleiter führt Projekte
 
-### Erfolgsfaktoren
+#### Erfolgsfaktoren
 
 - Was ist zu tun?
 - Wer ist beteiligt?
@@ -402,7 +426,7 @@ Deshalb: **Strategisches Projektmanagement**:
 - Norming
 - Performing
 
-### Messgrößen für den Projekterfolg
+#### Messgrößen für den Projekterfolg
 
 **Operatives Projektmanagement**:
 
@@ -416,7 +440,7 @@ Trotzdem gilt:
 - Ein Projekt, welches in Time, Quality und Budget ist, kann trotzdem scheitern
 - Ein Projekt ist erfolgreich, wenn der Business Case erfüllt ist (ROI/wirtschaftlicher Mehrwert erfüllt)
 
-### Planungsablauf
+#### Planungsablauf
 
 1. Was?: To-do
 2. Wie?: Ansatz
@@ -426,7 +450,7 @@ Trotzdem gilt:
 
 Herleitung der jeweiligen Inhalte → Produktbasierte Planung
 
-### Gründe für das Scheitern von Projekten
+#### Gründe für das Scheitern von Projekten
 
 - Aufwand falsch eingeschätzt
 - Kommunikationsprobleme
@@ -436,7 +460,7 @@ Herleitung der jeweiligen Inhalte → Produktbasierte Planung
 - Spezifische Probleme
 - Keine Unterstützung durch das Management
 
-### Häufige Fehler in Planungen
+#### Häufige Fehler in Planungen
 
 - Aufwand falsch eingeschätzt
 - Zusammenlegen von Planungsschritten
@@ -450,7 +474,7 @@ Herleitung der jeweiligen Inhalte → Produktbasierte Planung
 
 → Ein Leitfaden ist wichtig!
 
-### Was macht IT-Projektmanagement aus?
+#### Was macht IT-Projektmanagement aus?
 
 - Auf Prozess- und Tool-Ebene sehr generisch
 - Auf Methoden-Ebene sehr spezifisch
@@ -459,7 +483,7 @@ Herleitung der jeweiligen Inhalte → Produktbasierte Planung
   - Unternehmen (tayloring)
 - Bei IT-Projekten soll besonderer Fokus auf die spezifischen Methoden zur Bearbeitung gelegt werden
 
-### IT-Projektmanagement im Software-Entwicklungszyklus
+#### IT-Projektmanagement im Software-Entwicklungszyklus
 
 ![](static/1.png)
 
@@ -488,7 +512,9 @@ Herleitung der jeweiligen Inhalte → Produktbasierte Planung
 
 ## Kalkulation von IT-Projekten
 
-### Faktoren der Kalkulation
+### Einführung
+
+#### Faktoren der Kalkulation
 
 Direkte Aufwände werden aus der Aufwandsschätzung entnommen.
 
@@ -506,7 +532,7 @@ Direkte Aufwände werden aus der Aufwandsschätzung entnommen.
   - Externer Dienstleister
   - Reiner Support (Body Leasing)
 
-### Aufwände in der Kalkulation
+#### Aufwände in der Kalkulation
 
 - Abwälzung der Kosten für die Angebotserstellung
 - Einarbeitung und Schulung von Projektmitarbeitern
@@ -517,7 +543,7 @@ Direkte Aufwände werden aus der Aufwandsschätzung entnommen.
 - Sonstige Kosten: Hard-/Software für Entwicklung oder Betrieb
 - Hinkelstein-Transport
 
-### Ablauf einer Kalkulation
+#### Ablauf einer Kalkulation
 
 1. Netto-Aufwand (inkl. Modul und Systemtest) += Umfang in Projektstunden
 2. Abnahmetest += Prozentualer Aufschlag 15-25%
@@ -526,7 +552,7 @@ Direkte Aufwände werden aus der Aufwandsschätzung entnommen.
 5. Gewährleistung += Prozentualer Aufschlag 5-10%
 6. Festpreis
 
-### Probleme aus dem realen Leben
+#### Probleme aus dem realen Leben
 
 - Preise müssen in der Regel lange vor dem Projektstart genannt werden
 - Personal-Ressourcen können erst unmittelbar vor Projektstart zugeordnet werden (Henne-Ei-Problem)
@@ -534,15 +560,15 @@ Direkte Aufwände werden aus der Aufwandsschätzung entnommen.
 - Prozentuale Zuschläge aus der Analyse abgeschlossener Projekte
 - Personalkostensätze aus dem Rechnungswesen
 
-## Controlling
+### Controlling
 
-### Geschichte
+#### Geschichte
 
 - Ursprung im Rechnungswesen
 - Erst seit 70ern in Deutschland relevant
 - Kosten des Unternehmens stehen im Vordergrund
 
-### Zielsetzung und Grenzen
+#### Zielsetzung und Grenzen
 
 - Ziele
   - Verbesserung der Leistungsprozesse durch eine neue Qualität des Managementprozesses
@@ -552,14 +578,14 @@ Direkte Aufwände werden aus der Aufwandsschätzung entnommen.
   - Organisation im Unternehmen
   - Personalführung im Unternehmen
 
-### Bereiche des Controlling
+#### Bereiche des Controlling
 
 - Ziele setzen
 - Planen
 - Überwachen
 - Steuern
 
-### Controlling in der IT
+#### Controlling in der IT
 
 - IT-Controlling
   - Bewertet die IT in einem Unternehmen
@@ -577,7 +603,7 @@ Direkte Aufwände werden aus der Aufwandsschätzung entnommen.
   - Phasengrenzen/Meilensteine
 - Sehr eng mit der Aufwandsschätzung verbunden
 
-### Status- und Fortschrittsindikator
+#### Status- und Fortschrittsindikator
 
 - Es sind zu einem Zeitpunkt $i$
   - $x_i\%$ der Arbeit geleistet
@@ -588,14 +614,14 @@ Direkte Aufwände werden aus der Aufwandsschätzung entnommen.
   - $S<1$: negativ
 - Seine Ableitung $F_i=\frac{x_{i-1}-x_i}{y_{i-1}-y_i}$ gibt den Projektfortschritt wieder
 
-## Produktbasierte Planung
+### Produktbasierte Planung
 
-### Definition
+#### Definition
 
 - Jede Aktivität führt zu einem Ergebnis, sonst kann auf sie verzichtet werden
 - Ergebnisse sind Produkte
 
-### Prince2: Projects in Controlled Environments
+#### Prince2: Projects in Controlled Environments
 
 - Ist eine Projektmanagement-Methode
   - Branchen- und größenunabhängig einsetzbar
@@ -605,7 +631,7 @@ Direkte Aufwände werden aus der Aufwandsschätzung entnommen.
   - Komponenten: Inhalte und Themen, die vom Projektmanagement zu behandeln sind
   - Prozesse: Aktivitäten, deren Reihenfolge und Ergebnisse und deren Zusammenspiel den gesamten Projektverlauf abdecken
 
-### Der Plan: Grundlagen
+#### Der Plan: Grundlagen
 
 - Rückgrat des Projektmanagements
 - Legt fest, wie wann und durch wen Ziele erreicht werden sollen
@@ -619,7 +645,7 @@ Direkte Aufwände werden aus der Aufwandsschätzung entnommen.
   - Voneinander abhängigen Aktivitäten zur Erstellung dieser Produkte, die in bestimmten Zeiträumen von verschiedenen Personen ausgeführt werden müssen
   - Aktionen gallischer Spione
 
-### Produktbasierte Planung/Produkte
+#### Produktbasierte Planung/Produkte
 
 - Spezialistenprodukte: Die eigentlichen Produkte der Projektarbeit
   - Spezifikationen
@@ -638,7 +664,7 @@ Direkte Aufwände werden aus der Aufwandsschätzung entnommen.
   - Qualitätspläne
   - Prüfergebnisse
 
-### Aspekte Iterativer Projekte
+#### Aspekte Iterativer Projekte
 
 Projekte zerlegt in iterative, steuerbare Phasen
 
@@ -647,7 +673,7 @@ Projekte zerlegt in iterative, steuerbare Phasen
 - Aktivitäten können Phasenenden überschreiten (keine Leerlaufzeiten)
 - Projektstillstand bei Phasenübergängen sollte unbedingt vermieden werden
 
-### Planungsebenen
+#### Planungsebenen
 
 ![](static/6.png)
 
@@ -659,7 +685,7 @@ Projekte zerlegt in iterative, steuerbare Phasen
 - **Zeitrahmen**: Personenmonate & Personentage
 - **Detaillierung**: Exception Plan
 
-### Aufbau eines Plans
+#### Aufbau eines Plans
 
 ![](static/7.png)
 
@@ -674,14 +700,14 @@ Projekte zerlegt in iterative, steuerbare Phasen
 9. Zeiten und Kosten
 10. Wildschwein jagen & braten
 
-### Schlussfolgerungen
+#### Schlussfolgerungen
 
 - Wann, wie und zu welchen Kosten soll das Projektziel erreicht werden?
 - Was sind die Hauptprodukte, die zu erstellen sind?
 - Wird zu Projektbeginn erstellt und wird im Projektverlauf angepasst (Versionierung!)
 - Liefert v.a. bei iterativem Vorgehen die Kostenseite für den Business Case
 
-### Inhalte des Projektplans
+#### Inhalte des Projektplans
 
 - Kurze Beschreibung, was der Plan abdeckt (Projektvorgehen)
 - Voraussetzung für die Durchführung des Projekts
@@ -697,7 +723,7 @@ Projekte zerlegt in iterative, steuerbare Phasen
   - Ressourcenbedarf
   - Anforderungen für Ressourcen
 
-### Phasenplan
+#### Phasenplan
 
 - Qualitätsplan
   - Qualitätssicherungsmaßnahmen für die Hauptprodukte der Phase
@@ -706,9 +732,9 @@ Projekte zerlegt in iterative, steuerbare Phasen
 - Kommunikationsplan (Reporting) für die Phase
 - Risikobetrachtung für die Phase
 
-## Darstellung mittels Diagrammen
+### Darstellung mittels Diagrammen
 
-### PSP: Produktstrukturplan
+#### PSP: Produktstrukturplan
 
 ![](static/8.png)
 
@@ -722,7 +748,7 @@ Projekte zerlegt in iterative, steuerbare Phasen
   - Externes Modul: Das Produkt ist klar definiert und wird als Modul von extern bereitgestellt
   - Standard-Modul: Das eingesetzte Produkt ist ein Standard-Modul
 
-### Produktbeschreibungen
+#### Produktbeschreibungen
 
 - Prinzip
   - Ziel ist die Festlegung aller Elemente für eine erfolgreiche Produkterstellung
@@ -738,7 +764,7 @@ Projekte zerlegt in iterative, steuerbare Phasen
   - Qualitätskriterien
   - Abnahmeverfahren mit Abnahmebedingung, -kriterien und Verantwortlichen
 
-### Produktflussdiagramm
+#### Produktflussdiagramm
 
 - Produkte des Projektes in der Reihenfolge ihre Erstellung
 - Fremdprodukte kennzeichnen (Ovale)
@@ -746,7 +772,7 @@ Projekte zerlegt in iterative, steuerbare Phasen
 
 ![](static/9.png)
 
-### Zusammenhänge
+#### Zusammenhänge
 
 In allen drei Dokumenten sind stehts die gleichen Elemente enthalten.
 
@@ -757,14 +783,14 @@ In allen drei Dokumenten sind stehts die gleichen Elemente enthalten.
   - Zuordnung von Ressourcen
 - **Projektplan** → Darstellung der resultierenden zeitlichen Abhängigkeit
 
-### Dokumentation des Projektplans
+#### Dokumentation des Projektplans
 
 - Plan muss überarbeitet werden, wenn er fertig ist
 - Festschreibung des Status der Planung zu ausgewählten Zeitpunkten
 - Zusammenfassung in speziellen Dokumenten (ggf. mit Verweisen)
 - Weiterentwicklung der Inhalte in neuen Dokumenten
 
-### Terminplanung durchführen
+#### Terminplanung durchführen
 
 ![](static/10.png)
 
@@ -776,20 +802,20 @@ In allen drei Dokumenten sind stehts die gleichen Elemente enthalten.
     - Ressourcen gleichmäßig auslasten
   - Meilensteine definieren
 
-### Abhängigkeiten zwischen Aktivitäten
+#### Abhängigkeiten zwischen Aktivitäten
 
 - **Ende → Start**: Beginn nach Beendigung einer Vorgängeraktivität ![](static/11.png)
 - **Start → Start**: Start nach Start einer anderen Aktivität ![](static/12.png)
 - **Ende → Ende**: Abschluss bedingt vorherigen Abschluss einer anderen Aktivitäten ![](static/13.png)
 - **Start → Ende**: Aktivität kann erst nach Start einer anderen Aktivität beendet werden ![](static/14.png)
 
-### Kritischer Pfad
+#### Kritischer Pfad
 
 Abfolge von derjenigen Aktivitäten, bei denen eine Verzögerung unmittelbar den Endtermin beinflusst.
 
-## Projektorganisation
+### Projektorganisation
 
-### Grundlagen
+#### Grundlagen
 
 - Grundlegendes Element aller Projekte ist eine spezielle Organisation
 - Erfolgsfaktoren
@@ -798,7 +824,7 @@ Abfolge von derjenigen Aktivitäten, bei denen eine Verzögerung unmittelbar den
 - Vollständige Zuordnung aller Rollen zu Personen
 - Wahrung des AKV-Prinzips
 
-### Rollen in Projekten
+#### Rollen in Projekten
 
 - Auftraggeber
 - Teilprojektleiter
@@ -811,7 +837,7 @@ Abfolge von derjenigen Aktivitäten, bei denen eine Verzögerung unmittelbar den
 - Trubadix
 - Majestix
 
-### Projektleitung
+#### Projektleitung
 
 - Verantwortet die Planung
 - Bildet und steuert das Team
@@ -822,14 +848,14 @@ Abfolge von derjenigen Aktivitäten, bei denen eine Verzögerung unmittelbar den
 - Informiert den Lenkungsausschuss und die Teams
 - Hat den Überblick und sorgt für Transparenz
 
-### Teams in Projekten
+#### Teams in Projekten
 
 - **Lenkungsausschuss**: Gesamtverantwortung
 - **Projektaufsicht**: Überwachung der Projektdurchführung
 - **Projektunterstützung**: Unterstützung des Projektleiters bei administrativen Aufgaben
 - **Projektteam**: Durchführung dedizierter Aufgaben
 
-### Der Lenkungsausschuss (Lenkungskreis, Steering Comitee, Projektausschuss)
+#### Der Lenkungsausschuss (Lenkungskreis, Steering Comitee, Projektausschuss)
 
 - Verantwortet den Projekterfolg
 - Ist das Entscheidungsgremium im Projekt
@@ -838,7 +864,7 @@ Abfolge von derjenigen Aktivitäten, bei denen eine Verzögerung unmittelbar den
 - Der Projektleiter berichtet an den Lenkungsausschuss
 - Kann in einem Unternehmen/Projekt hierarchisch strukturiert sein
 
-### Steuerung von Projekten durch Lenkungsausschuss
+#### Steuerung von Projekten durch Lenkungsausschuss
 
 ![](static/15.png)
 
@@ -855,7 +881,7 @@ Abfolge von derjenigen Aktivitäten, bei denen eine Verzögerung unmittelbar den
   - Holy fucking shit das ist Micromanagement lest das Agile Manifesto warum lernen wir diesen 20 Jahre alten Sch\* Allahu akbar
   - Lenkungsteam hat "alles unter Kontrolle"
 
-### Projektaufsicht
+#### Projektaufsicht
 
 - Wird vom Lenkungsausschuss eingesetzt
 - Wird auf Initiative des Projektleiters oder Lenkungsausschusses aufgesetzt: Entlastet und Kontrolliert den Projektleiter
@@ -868,7 +894,7 @@ Abfolge von derjenigen Aktivitäten, bei denen eine Verzögerung unmittelbar den
   - Überwachung des Budgets
   - Überwachung der Qualität
 
-### Projektunterstützung (Projektbüro/Projekt-Office)
+#### Projektunterstützung (Projektbüro/Projekt-Office)
 
 - Unterstützt den Projektleiter bei
   - Planung
