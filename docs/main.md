@@ -274,8 +274,8 @@ Vor allem bei der Zuordnung in der Bilanz wichtig.
   - **Reduzierter Mehrwertsteuersatz**: 7%, Nahrungsmittel, Taxi
   - **Voller Mehrwertsteuersatz**: 19%
 - **Steuerlast**
-  - **Vorsteuer**: Im **Einkaufspreis** ist MwSt erhalten (_Wir bekommen die Rechnung_): $-$
-  - **Umsatzsteuer**: Im **Verkaufspreis** ist MwSt erhalten (_Wir stellen die Rechnung_): $+$
+  - **Vorsteuer**: Im **Einkaufspreis** ist MwSt erhalten (_Wir bekommen die Rechnung/Wir bezahlen Geld an gemanden_): $-$
+  - **Umsatzsteuer**: Im **Verkaufspreis** ist MwSt erhalten (_Wir stellen die Rechnung/Wir machen Umsatz_): $+$
   - Steuerlast des Unternehmens: $Vereinnahmte\ Umsatzsteuer - bezahlte\ Vorsteuer$
 
 #### MwSt in der Buchhaltung
