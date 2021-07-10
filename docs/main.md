@@ -868,17 +868,17 @@ Abfolge von derjenigen Aktivitäten, bei denen eine Verzögerung unmittelbar den
 
 ![](static/15.png)
 
-- Management by Exception: Der Projektleiter steuert verantwortlich im Rahmen der definierten Toleranz
+- **Management by Exception**: Der Projektleiter steuert verantwortlich im Rahmen der definierten Toleranz
   - Wenig regelmäßige Meeting
   - Regelmäßige Statusberichte
   - Phasenabschlussberichte
-  - Reviews zu Phasenenden mit Entscheidung über die nächsten Phase
+  - Reviews zu Phasenenden mit Entscheidung über die nächste Phase
   - Eskalation und Entscheidungsvorlagen bei Eintritt von Ausnahmesituationen
   - Bedingt Vertrauen in den Projektleiter
-- Direkte Steuerung: Der Projektleiter stimmt permanent seine Maßnahmen mit Lenkungsteam ab
+- **Direkte Steuerung**: Der Projektleiter stimmt permanent seine Maßnahmen mit Lenkungsteam ab
   - Häufige Meetings mit vielen Details
   - Lenkungsteam macht (teilweise) Arbeit des Projektleiters
-  - Holy fucking shit das ist Micromanagement lest das Agile Manifesto warum lernen wir diesen 20 Jahre alten Sch\* Allahu akbar
+  - Holy fucking shit das ist Micromanagement lest das Agile Manifesto warum lernen wir diesen 20 Jahre alten Sch\*, _Trubadix!_
   - Lenkungsteam hat "alles unter Kontrolle"
 
 #### Projektaufsicht
@@ -906,3 +906,4 @@ Abfolge von derjenigen Aktivitäten, bei denen eine Verzögerung unmittelbar den
 - Dient als organisatorisches Rückgrat des Projekts
   - Organisation von Meetings
   - Materialbeschaffung
+  - Hinkelsteinabbau
