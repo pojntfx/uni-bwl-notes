@@ -146,7 +146,7 @@ Syntax: `<Soll-Konto> [und VST-19 ${MwSt-Anteil}] an <Haben-Konto> ${Betrag} [un
 - **Keine Buchung ohne Beleg**
 - **Aufbewahrung der Unterlagen für 10 Jahre**
 
-#### Aufwandskonto vs. Vermögenskonto
+#### Faustformel Aufwandskonto vs. Vermögenskonto
 
 - Produkt wird **sofort verbraucht**: Verbuchung über ein Aufwandskonto
 - Produkt wird **längeren Zeitraum genutzt**: Verbuchung über ein Vermögenskonto
