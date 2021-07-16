@@ -551,6 +551,7 @@ Direkte Aufwände werden aus der Aufwandsschätzung entnommen.
 4. Risikozuschlag += Prozentualer Aufschlag 10-15%
 5. Gewährleistung += Prozentualer Aufschlag 5-10%
 6. Festpreis
+7. Gewinn += Prozentualer Aufschlag 20%
 
 #### Probleme aus dem realen Leben
 
@@ -608,7 +609,7 @@ Direkte Aufwände werden aus der Aufwandsschätzung entnommen.
 - Es sind zu einem Zeitpunkt $i$
   - $x_i\%$ der Arbeit geleistet
   - $y_i\%$ des Budget (Zeit oder Geld) verbraucht
-- Der Quotient $S_i=x_i/y_i$ gibt den Projektstatus wieder
+- Der Quotient $S_i=\frac{x_i}{y_i}$ gibt den Projektstatus wieder
   - $S>1$: positiv
   - $S=1$: neutral
   - $S<1$: negativ
