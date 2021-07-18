@@ -421,7 +421,7 @@ _aber bin ich in einem Tollhause? bin ich selbst toll?_ - E.T.A. Hoffmann, "Der 
 - Wer ist beteiligt?
 - Welche Regeln der Zusammenarbeit gelten?
 
-Deshalb: **Strategisches Projektmanagement**:
+Deshalb: **Strategisches Projektmanagement mit der Team-Entwicklungsuhr**:
 
 - Forming
 - Storming
