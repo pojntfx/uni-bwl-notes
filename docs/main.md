@@ -322,6 +322,8 @@ Daten, um qualifizierte Entscheidungen für folgende Bereiche zu treffen, fehlen
 
 #### Aufbau der Kostenrechnung
 
+![](static/16.png)
+
 - **Kostenarten-Rechnung**: Erfassung der Kosten differenziert nach ver- oder gebrauchten Produktionsfaktoren
 - **Kostenstellen-Rechnung**: Kostenstellen-bezogene Erfassung von Kostenträger-Gemeinkosten und Verechnung auf Endkostenstellen
 - **Kostenträger-Rechnung**: Produkte und Dienstleistungen, die zur Deckung der im Betrieb entstehenden Kosten und Erzielung des Betriebserfolgs dienen
@@ -677,6 +679,8 @@ Projekte zerlegt in iterative, steuerbare Phasen
 #### Planungsebenen
 
 ![](static/6.png)
+
+Desto kleiner die Zeitspanne, desto größer die Detaillierung.
 
 - Gesamtprojektplan
 - Abschnittsplan
