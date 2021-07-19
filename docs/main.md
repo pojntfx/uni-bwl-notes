@@ -259,6 +259,10 @@ Vor allem bei der Zuordnung in der Bilanz wichtig.
   - Sonderabschreibung: z.B. Defekt nach Garantie
 - Eigenständige Nutzbarkeit ist Voraussetzung
 - Bundes-Finanzministerium schlägt Nutzungsdauern vor
+  - Notebook/Computer: 3 Jahre
+  - Fuhrpark/Auto: 6 Jahre
+  - Server/Großrechner: 7 Jahre
+  - Büromöbel: 13 Jahre
 - Bei geringwertigen Wirtschaftsgern gelten Sonderregeln
 - Nach Abschreibung bleiben Güter mit Rest- oder Erinnerungswert von 1€ im Unternehmensvermögen
 
