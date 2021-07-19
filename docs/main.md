@@ -924,4 +924,4 @@ Abfolge von derjenigen Aktivitäten, bei denen eine Verzögerung unmittelbar den
 - **Arbeitsplatzkosten**: ${Arbeitsplatzausstattung\ (Laptop\ etc.)} + {Freiwillige\ Sozialleistungen\ (Fitnesscenter\ etc.)}$, aber Vorsicht: **NICHT** die ${sonstigen\ Kosten}$, welche weder pro Mitarbeiter noch pro Arbeitsplatz gelten (oftmals im letzten Absatz)
 - **Direkten Kosten**: ${Arbeitsplatzkosten} + {Lohn\ der\ IT\ Engineers\ (+28\%\ Sozialkosten/Lohnnebenkosten})$
 - **Gemeinkosten**: Alle Kosten, welche durch andere Mitarbeiter (also alle, welche nicht IT-Engineers sind), entstehen: $Löhne\ (+28\%\ Sozialkosten/Lohnnebenkosten)+Arbeitsplatzkosten+Freiwillige\ Sozialabgaben+{Sonstigen\ Kosten}$
-- **Gesamtkosten/Selbstkosten**: $Direkte\ Kosten+Gemeinkosten(+ Abnahmetest,\ Projektmanagement,\ Risikozuschlag,\ Gewährleistung,\ Festpreis)$
+- **Gesamtkosten/Selbstkosten**: $Direkte\ Kosten+Gemeinkosten(+ Abnahmetest,\ Projektmanagement,\ Risikozuschlag,\ Gewährleistung,\ Festpreis)$. Hier kann je nach Aufgabenstellung auch noch die $Mehrwertssteuer$ darauf gerechnet werden.
