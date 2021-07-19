@@ -547,6 +547,8 @@ Direkte Aufwände werden aus der Aufwandsschätzung entnommen.
 
 #### Ablauf einer Kalkulation
 
+![](./static/17.png)
+
 1. Netto-Aufwand (inkl. Modul und Systemtest) += Umfang in Projektstunden
 2. Abnahmetest += Prozentualer Aufschlag 15-25%
 3. Projektmanagement += Prozentualer Aufschlag 20-30%
