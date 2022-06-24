@@ -1,8 +1,11 @@
-% Uni BWL Notes
-% Felicitas Pojtinger
-% \today
-\tableofcontents
-\newpage
+---
+author: [Felicitas Pojtinger]
+date: "2022-02-01"
+subject: "Uni BWL Notes"
+keywords: [econ, bwl, hdm-stuttgart]
+subtitle: "Notes for the Planung und Kalkulation von IT-Projekten (econ 101) course at HdM Stuttgart."
+lang: "de"
+---
 
 # Uni BWL Notes
 
