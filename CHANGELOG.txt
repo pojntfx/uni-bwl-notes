@@ -1,3 +1,9 @@
+commit 57a65a7ab2ea4c2aa2013631b595942cf37bb9f6
+Author: Felicitas Pojtinger <felicitas@pojtinger.com>
+Date:   Fri Jun 24 18:52:01 2022 +0200
+
+    docs: Fix Deliverance badge
+
 commit 93c12281c50caf2467b9e489369f2668a4ae7988
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Fri Jun 24 18:35:21 2022 +0200
