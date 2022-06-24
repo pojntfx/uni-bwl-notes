@@ -416,7 +416,7 @@ _aber bin ich in einem Tollhause? bin ich selbst toll?_ - E.T.A. Hoffmann, "Der 
 
 ![](static/5.png)
 
-`Strategie/Geschäftsziele → Konkrete Anforderungen → Projekte/Programme → Business Benefits`
+Strategie/Geschäftsziele → Konkrete Anforderungen → Projekte/Programme → Business Benefits
 
 - Projekte sind Geschäftszielen unterstellt
 - IT-Projekte werden nur in Ausnahmefällen von der IT-Abteilung verantwortet
