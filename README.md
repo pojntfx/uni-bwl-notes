@@ -2,7 +2,7 @@
 
 Notes for the Planung und Kalkulation von IT-Projekten (econ 101) course at HdM Stuttgart.
 
-[![Deliverance CI](https://github.com/pojntfx/uni-bew-notes/actions/workflows/deliverance.yaml/badge.svg)](https://github.com/pojntfx/uni-bwl-notes/actions/workflows/deliverance.yaml)
+[![Deliverance CI](https://github.com/pojntfx/uni-bwl-notes/actions/workflows/deliverance.yaml/badge.svg)](https://github.com/pojntfx/uni-bwl-notes/actions/workflows/deliverance.yaml)
 
 ## Overview
 
