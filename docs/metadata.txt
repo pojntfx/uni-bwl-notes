@@ -1,6 +1,6 @@
 Uni BWL Notes
 Notes for the Planung und Kalkulation von IT-Projekten (econ 101) course at HdM Stuttgart.
-© 2021 Felix Pojtinger under AGPL-3.0
+© 2021 Felicitas Pojtinger under AGPL-3.0
 https://github.com/pojntfx/uni-bwl-notes
 https://github.com/pojntfx/uni-bwl-notes/releases/latest/download/all.zip
 🚀 Happy learning!
