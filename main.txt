@@ -1144,8 +1144,8 @@ Tipps zur Kalkulation
     Arbeitsplatzkosten + Lohn der IT Engineers ( + 28% Sozialkosten/Lohnnebenkosten)
 -   Gemeinkosten: Alle Kosten, welche durch andere Mitarbeiter (also
     alle, welche nicht IT-Engineers sind), entstehen:
-    Löhne ( + 28% Sozialkosten/Lohnnebenkosten) + Arbeitsplatzkosten + Freiwillige Sozialabgaben + Sonstigen Kosten
+    Löhne (+28% Sozialkosten/Lohnnebenkosten) + Arbeitsplatzkosten + Freiwillige Sozialabgaben + Sonstigen Kosten
 -   Gesamtkosten/Selbstkosten:
-    Direkte Kosten + Gemeinkosten( + Abnahmetest, Projektmanagement, Risikozuschlag, Gewährleistung, Festpreis).
+    Direkte Kosten + Gemeinkosten(+Abnahmetest, Projektmanagement, Risikozuschlag, Gewährleistung, Festpreis).
     Hier kann je nach Aufgabenstellung auch noch die Mehrwertssteuer
     darauf gerechnet werden.
