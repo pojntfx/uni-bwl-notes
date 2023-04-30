@@ -1,250 +1,244 @@
-commit a0330c5d13f14ff852b722a5fb303a150cf5435f
-Author: Felicitas Pojtinger <felicitas@pojtinger.com>
-Date:   Fri Jun 24 18:54:37 2022 +0200
-
-    chore: Update personal info
-
-commit 57a65a7ab2ea4c2aa2013631b595942cf37bb9f6
+commit 85df4aa59ab11c0615c1c67194f4e362cfe43561
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Fri Jun 24 18:52:01 2022 +0200
 
     docs: Fix Deliverance badge
 
-commit 93c12281c50caf2467b9e489369f2668a4ae7988
+commit c051be5a115f3bc9c481028ca4c9ef5e20107f5c
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Fri Jun 24 18:35:21 2022 +0200
 
     fix: Remove unicode from code blocks
 
-commit a9d1cec2cf460be2c84b6d4ecadfcb26d5788255
+commit 4efe81e54a4ff83cb217dba360b14917616d0da5
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Fri Jun 24 18:10:58 2022 +0200
 
     build: Port to Deliverance
 
-commit 9c328a1ed43d49bd28f292126ae024b86d0dfdaa
+commit 7152382be606e7b165d4c65ad300aa40fe10613e
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Mon Jul 19 15:17:06 2021 +0000
 
     fix: Add not eon Mehrwertssteuer in calculation tips
 
-commit 0e3c75f5b45093bb8d461700b84fbbad43f65fb9
+commit 34d626c6907a3f0ee837d8a6d695e36e1011301b
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Mon Jul 19 14:10:49 2021 +0000
 
     feat: Add Tipps zur Kalkulation
 
-commit ee1ba271c8a79d4fd4b4f47d5cebb69d834c65a1
+commit bfc6a7d0e3ae63438955d59e1b02b742133a948d
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Mon Jul 19 08:21:36 2021 +0000
 
     feat: Add Abschreibungsdauer for common utensils
 
-commit 19a4cbd213044eafaec5283f02fcd70225d48d55
+commit d22716f41da3bb5eb92185b5a3c0c5e364f871d1
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Mon Jul 19 08:06:56 2021 +0000
 
     feat: Add graph for calculation steps
 
-commit 73713c09a30fc9a28b0324b3103c2fc7fe760a98
+commit 26c0af0c080ba9f85a2fab5ddc3bf84120e00a24
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Sun Jul 18 11:42:46 2021 +0000
 
     fix: Use special term for strategic project management
 
-commit 53dfec4dd4436106067dcd1ed0ddcc655ffadc97
+commit da222e958567793703cf41da6eb14180a47623ca
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Sun Jul 18 11:15:35 2021 +0000
 
     feat: Add diagram for Kostenrechnung
 
-commit 788e7d758cf116ddfaaf1b909c93afc15f5e173e
+commit 197b34d5904e0c4ec177e52b1cc8c0cf1f4a7eb4
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Fri Jul 16 15:24:22 2021 +0000
 
     refactor: Clarify role of profit in price calc
 
-commit 035cb1197ad0de4ba0c81cd6281c0d22fd970bd2
+commit 523cec16856c2162e23e7b9f2c991ff637be1ca9
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Mon Jul 12 09:45:15 2021 +0000
 
     chore: Add special keyword from test exam
 
-commit 4da83fd31e98cf1de9a7a196db55c6ba1f3f0719
+commit 4010e7c86a807c4314d3fa9e7ebc7c03ff970958
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Sat Jul 10 22:07:32 2021 +0000
 
     refactor: Add notes on management
 
-commit 29b92d531bfd39eb2f213c27799d3e18719bbf14
+commit 2edb19825dc336ae509f000e3611a39554030bf5
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Sat Jul 10 19:42:41 2021 +0000
 
     refactor: Improve Math rendering in HTML version
 
-commit bd1110384aa0382eb7791743f6d2a65d4034d75e
+commit d7d43ad04dd6291d916e6fdab14d35bff2668d5a
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Sat Jul 10 19:31:51 2021 +0000
 
     fix: Increase TOC depth in HTML version to match PDF version
 
-commit aa8eadb36cb2333d5a758bf870a3c5174bf71d6c
+commit a7c148270c2c99021e9d84a4b59517573a08db52
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Sat Jul 10 14:23:58 2021 +0000
 
     fix: Clarify purpose of Vorsteuer and Umsatzsteuer
 
-commit 33dd94e1f5a6507fb8b64de9f36defa7e8aefb19
+commit da96776d3afce4a8936ee7c85bef9232a9f8996e
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Thu Jul 8 21:47:39 2021 +0000
 
     feat: Add contributing info and introduction
 
-commit 1b35826b435505afe881d9256f6dfe6a17ec71a6
+commit c1b27da0ea7e9606a749ac1639aba55c4791e24c
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Wed Jul 7 17:52:53 2021 +0000
 
     feat: Add info on ad-hoc accounts
 
-commit 273ad60d6d12a1b99ee3cbee2af1a91e446ec0d9
+commit 5dcac78b6b0d49e228c01b9ce512780071eb18f5
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Tue Jun 29 22:53:24 2021 +0000
 
     fix: Correct typos
 
-commit aef277b7ee418f332d2eff3d5fdbef824381e473
+commit c171a5fc0b2636837b01ae459c50aeb93b60833f
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Tue Jun 29 15:03:23 2021 +0000
 
     feat: Add pictures where necessary
 
-commit 56d91da7db487254e59afcfe9e92a0a63c2a8631
+commit 11dd34c8803ef496f3234f37ca7832ee4c4f91b2
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Tue Jun 29 14:19:53 2021 +0000
 
     feat: Start adding image support
 
-commit 9276381ce48b5e31718437a9daadd32bee8fdb47
+commit 937cb42b11cc045645c48566151f9c73aad4d7d9
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Tue Jun 29 14:00:03 2021 +0000
 
     chore: Rework heading hierarchy
 
-commit aede57213abb0c22d7286a45976fc6cac11b5eac
+commit 0b387fefd5447087a2a5cd56ef0fe84d082f5b38
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Tue Jun 29 13:25:17 2021 +0000
 
     feat: Add project structure overview section
 
-commit 1e2bc96cff7a158953b3766bcfb17b56ffd86c38
+commit 6c9d28027a8ed2940c5495fdfa55e0fedc203a2d
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Tue Jun 29 10:55:54 2021 +0000
 
     feat: Add introduction to controlling
 
-commit 01a38cceb63204512b68f94ec30bcea0079dd900
+commit 550c36e9cbec46b0677be88d35f0880ac35c552e
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Tue Jun 29 08:36:48 2021 +0000
 
     feat: Add rest of project management up until Kalkulation
 
-commit c86cb33d2b09bb0749238c78b5cf7ec4891908ef
+commit ec5e6c4b73a0f672f5e0f5c3cbca7b03e0e85cd0
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Sat Jun 26 08:24:51 2021 +0000
 
     chore: Bump build system
 
-commit 9ac559879630a7ee1424105d4c229d2232aef24a
+commit cb5d71918617b3f92d77bfef5cf8cde0a3ffc11e
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Sat Jun 26 08:23:21 2021 +0000
 
     fix: Clarify role of different account types
 
-commit 6aa8f9643de43d52a9926543ab741aae80afd918
+commit ec4e77f1be7dbcaec35e88c82a0e9a4869d764de
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Thu Jun 24 13:14:41 2021 +0000
 
     feat: Add types of property
 
-commit 3ea29b1641a5d24a4431b976a5dc406602824c57
+commit 9d02df57b93ff20efaa88a19d42269e84e3e670a
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Thu Jun 24 12:54:24 2021 +0000
 
     feat: Add more account types
 
-commit 38b15c8dfa47ddeef2b8d7ca7a9258e79c206076
+commit 928daaf88858d5ca41861574d8a0930fd2b4e5dc
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Tue Jun 22 17:20:15 2021 +0000
 
     chore: Bump build system
 
-commit 17e5b5c085865a8551049a11692435dee7c89a30
+commit 84ef0475d31edaad081e1bcc43bff138893fc3f4
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Tue Jun 15 21:50:33 2021 +0000
 
     feat: Add different account types
 
-commit 85313b6b3148178b19b896cadb01ece11593438f
+commit 51e36acdb2da5d3df63a16aded918418a09ab7e8
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Thu Jun 3 19:22:36 2021 +0000
 
     feat: Add introduction to planning section
 
-commit 4ae4417b549c40c3bbfa163b0f8d99543ffd9369
+commit 99e206400b387797f381f48d9a691bca93478b8e
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Thu Jun 3 18:43:19 2021 +0000
 
     feat: Add notes on internes Rechungswesen
 
-commit 3858d8b943c4bfe0991f7ed5ef4deabb11825473
+commit bb58f7d34dcd204a3bbd228a7b545063b899ecee
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Thu Jun 3 16:59:46 2021 +0000
 
     refactor: Strip paths from release archive
 
-commit 2ef6a96e334d198678af4558c461820589569cff
+commit 6a5b3abb6fbafd0d16ccec893cd3029818ada261
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Thu Jun 3 16:57:07 2021 +0000
 
     fix: Correct typo in manifest
 
-commit d478bdfe428c5f6be933f4765b15b50ab139bc58
+commit 0fb10dbd8b54d0df97841fdd9f6d76af04e2ae47
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Thu Jun 3 16:55:52 2021 +0000
 
     feat: Add basic HTML output with index
 
-commit 3c81e2d5958fcdeecbdd35799f5cd366afe8d4c4
+commit 0b31a240346eeacd2e95510a63cea90a9259e1f8
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Thu Jun 3 15:18:39 2021 +0000
 
     feat: Add special cases section
 
-commit 47a80901aae65a596ae36a0ee78e270444f6fae3
+commit ab7ac54576c3a2d0eb83b5f7e8ed0f38accd2b02
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Thu Jun 3 14:57:46 2021 +0000
 
     feat: Add pandoc CI
 
-commit 0d3393fd8db859b09e2735f821b236e0e987fe9b
+commit a300fbd6bb5b70cfb53ce7a428fa6ee947d11a03
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Thu Jun 3 14:32:19 2021 +0000
 
     feat: Add externes Rechnungswesen section
 
-commit 27a62f918bbf23e18bc0ecea8c93a4741e30a5f2
+commit efe3ea0bc69bb6a16f79ee58008e1109fb0728d0
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Thu Jun 3 13:32:28 2021 +0000
 
     feat: Add introduction part
 
-commit af18ba8f0917795c472528b1a9e18bbb7c88ba66
+commit 83506b6cd8ae8478f6cd774e18a805cce4459302
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Thu Jun 3 12:49:15 2021 +0000
 
     feat: Add initial project structure
 
-commit cf1a6e1d62daabc92b6c95fb43db739fc11d020d
+commit abfc16abe64f56bd3797831f55b14bb3dd45aef7
 Author: Felicitas Pojtinger <felicitas@pojtinger.com>
 Date:   Thu Jun 3 14:44:09 2021 +0200
 
