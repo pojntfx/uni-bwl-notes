@@ -111,11 +111,15 @@ Found an error or have a suggestion? Please open an issue on GitHub
 
 [QR code to source repository]
 
+QR code to source repository
+
 If you like the study materials, a GitHub star is always appreciated :)
 
 License
 
 [AGPL-3.0 license badge]
+
+AGPL-3.0 license badge
 
 Uni BWL Notes (c) 2021 Felicitas Pojtinger and contributors
 
